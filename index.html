@@ -1,0 +1,230 @@
+---
+layout: default
+section_id: accueil
+images:
+  - /img/eig.png
+boxes:
+  - icon_class: fa fa-trophy
+    title: Design
+    text:
+      Placeat vel
+  - icon_class: fa fa-compass
+    title: Art direction
+    text:
+      Placeat vel
+  - icon_class: fa fa-star-half-empty
+    title: Branding
+    text:
+      Placeat vel
+
+motivations:
+  - icon_class: fa fa-adn
+    desc: Créer une communauté numérique d'intérêt général qui allie administrations et particuliers.
+  - icon_class: fa fa-compass
+    desc: Promouvoir l'innovation ouverte comme méthode et idéal au sein de l'administration.
+  - icon_class: fa fa-star-half-empty
+    desc: Valoriser les données d'intérêt public pour proposer des services toujours plus performants.
+  - icon_class: fa fa-unlock
+    desc: Encourager le développement de projets publiés sous licence libre dans l'administration.
+
+piliers:
+  - icon_class: fa fa-trophy
+    title: <a href="/defis.html">Le défi</a>
+    desc: Un projet portant sur le numérique, porté par une administration et dimensionné pour être relevé en 10 mois par 2 ou 3 EIG.
+  - icon_class: fa fa-compass
+    title: <a href="/communaute.html">Le mentor</a>
+    desc: Le porteur du défi au sein de l'administration qui oriente le défi grâce à son expertise métier et facilite l'intégration des EIG à l'administration.
+  - icon_class: fa fa-star-half-empty
+    title: <a href="/communaute.html">L'EIG</a>
+    desc: L'entrepreneur d'intérêt général ou une personne aux compétences numériques pointues (datascience, développement, design) qui relève le défi.
+
+slides:
+  - bg: /img/fondeig.jpg
+    title:
+      text: TEST2 à des talents du numérique pour résoudre des défis publics en 10 mois
+      animation: bottom-to-top
+      class: large-12 medium-12
+    buttons:
+      animation: bottom-to-top
+      class: large-7 large-offset-3 medium-7 medium-offset-3
+      items:
+        - text: <strong>Découvrir la promotion 3</strong>
+          url: defis.html
+          class: boxed
+---
+
+
+<div class='advanced mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.index == 1 %}
+          <li class='current'></li>
+        {% else %}
+          <li></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.index == 1 %}
+          {% assign class = "static" %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+
+        <li class='frame {{class}}'>
+          <div class='bg' style='background-image: url({{slide.bg}});'></div>
+          {% if slide.infos %}
+            {% for info in slide.infos %}
+              <div class='info{{forloop.index}} {{info.animation}}' style=''>
+                <div class='row'>
+                  <div class='medium-10 large-8 columns'>
+                    <p class='fa fa-check' style='color: #333;'>{{info.text}}</p>
+                    <div class='spacing'></div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class='title {{slide.title.animation}}' style='color: rgb(255, 255, 255);'>
+              <div class='row'>
+                <div class='{{slide.title.class}} columns'>
+                  <h2>{{slide.title.text}}</h2>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          <div class='buttons-wrapper {{slide.buttons.animation}}' style=''>
+            <div class='row'>
+              <div class='{{slide.buttons.class}} columns'>
+                <div class='two spacing'></div>
+                {% for button in slide.buttons.items %}
+                  <a target="_blank" class='button {{button.class}}' href='{{button.url}}'>{{button.text}}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class='full' style='background: #f5f5f5'>
+    <div class='row'>
+	<div style="text-align:center;"><h2>Les trois piliers de notre programme</h2></div>
+	<div class='spacing'></div>
+	<div class='large-12 columns'>
+	    <div class='mod modBoxedTextSlider'>
+		<div class='boxes'>
+		    {% for pilier in page.piliers %}
+		    <div class='box' style='background: #f9f9f9;'>
+			<i class='{{pilier.icon_class}}'></i>
+			<img src='{{pilier.img}}' />
+			<h3>{{pilier.title}}</h3>
+			<p>{{pilier.desc}}</p>
+		    </div>
+		    {% endfor %}
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div class='spacing'></div>
+</div>
+
+<div class='full no-padding' style='background: #1c419b; color: #fff'>
+    <div class='one spacing'></div>
+    <div class='mod modCallToAction'>
+	<div class='row'>
+	    <div class='medium-7 large-7 columns'>
+		<p style="margin-top: .6em;">Et concrètement, comment ça marche ?</p>
+	    </div>
+	    <div class='medium-5 large-5 columns' style='text-align: right;'>
+		<a class='boxed button' href='presentation.html'><strong>Découvrir le programme</strong></a>
+	    </div>
+	</div>
+    </div>
+    <div class='one spacing'></div>
+</div>
+
+<div class='full' style='background: #f5f5f5'>
+    <div class='row'>
+	<div style="text-align:center;"><h2>Ce qui nous motive</h2></div>
+	<div class='spacing'></div>
+	<div class='large-12 columns'>
+	    <div class='mod modBoxedTextSlider'>
+		<div class='boxes'>
+		    {% for motivation in page.motivations %}
+		    <div class='box' style='background: #f9f9f9;'>
+			<i class='{{motivation.icon_class}}'></i>
+			<p>{{motivation.desc}}</p>
+		    </div>
+		    {% endfor %}
+		</div>
+	    </div>
+	</div>
+    </div>
+    <div class='spacing'></div>
+</div>
+
+<div class='one spacing'></div>
+
+<div class='full no-padding' style='background: #1c419b; color: #fff'>
+    <div class='one spacing'></div>
+    <div class='mod modCallToAction'>
+	<div class='row'>
+	    <div class='medium-7 large-7 columns'>
+		<p>Le programme crée une communauté numérique d'intérêt général</p>
+	    </div>
+	    <div class='medium-5 large-5 columns' style='text-align: right;'>
+		<a class='boxed button' href='communaute.html'><strong>Découvrir la communauté</strong></a>
+	    </div>
+        </div>
+    </div>
+    <div class='one spacing'></div>
+</div>
+
+<div class='full'>
+    <div class='row'>
+	<div class='large-12 columns centered-text'>
+	  <h2>Les EIG et les mentors parlent de leur expérience</h2>
+	    <div class='mod modTestimonials'>
+		<div class='row'>
+		    <div class='small-12 columns'>
+			<div class='items centered-text'>
+			    {% for t in site.data.temoignages  %}
+			    <div class='item'>
+				<p class='quote'>{{t.text}}</p>
+				<p class='author'>- {{t.author}}, {{t.position}}</p>
+				<div class='two spacing'></div>
+			    </div>
+			    {% endfor %}
+			</div>
+		    </div>
+		    <div class='spacing'></div>
+		</div>
+	    </div>
+	</div>
+    </div>
+</div>
+
+<div class='full no-padding' style='background: #1c419b; color: #fff'>
+    <div class='one spacing'></div>
+    <div class='mod modCallToAction'>
+	<div class='row'>
+	    <div class='medium-7 large-7 columns' style="margin-top: 1em">
+		<p>3 ans et déjà 37 défis !</p>
+	    </div>
+	    <div class='medium-5 large-5 columns' style='text-align: right;'>
+		<a class='boxed button' href='defis.html'><strong>Découvrir tous les défis</strong></a>
+	    </div>
+    </div>
+    <div class='one spacing'></div>
+</div>
