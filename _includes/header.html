@@ -4,8 +4,8 @@
     <ul class='title-area'>
       <li class='name'>
         <h1>
-          <a href="{{site.url}}/index.html">
-            <img alt="Logo EIG" style="width:262px;" src="{{site.url}}/img/logo-marianne-eig-site.png" />
+          <a href="{{site.url}}{{site.baseurl}}/index.html">
+            <img alt="Logo EIG" style="width:262px;" src="{{site.url}}{{site.baseurl}}/img/logo-marianne-eig-site.png" />
           </a>
         </h1>
       </li>
@@ -30,14 +30,14 @@
               <ul class='dropdown'>
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.url}}/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.url}}{{site.baseurl}}/{{ child.path }}">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}

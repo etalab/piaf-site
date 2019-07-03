@@ -7,7 +7,7 @@ section_id: blog
 <div class='big mod modBlogPost no_bg'>
   <div class='images'>
     {% for image in post.images %}
-    <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+    <div class='image'><img alt="" src="{{site.url}}{{site.baseurl}}/{{image}}" /></div>
     {% endfor %}
   </div>
   <div class='content'>

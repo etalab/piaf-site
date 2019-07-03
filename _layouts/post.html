@@ -5,7 +5,7 @@ layout: blog
 <div class='mod modBlogPost big no_bg'>
   <div class='images'>
     {% for image in page.images %}
-    <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+    <div class='image'><img alt="" src="{{site.url}}{{site.baseurl}}/{{image}}" /></div>
     {% endfor %}
   </div>
   <div class='content'>
@@ -45,4 +45,3 @@ layout: blog
     {% include share-bar.html %}
   </div>
 </div>
-

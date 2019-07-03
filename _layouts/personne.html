@@ -66,7 +66,7 @@ layout: default
         <div class='slides'>
           {% for image in page.images %}
           <div class="slide">
-            <img src="{{site.url}}/{{image}}" alt="">
+            <img src="{{site.url}}{{site.baseurl}}/{{image}}" alt="">
           </div>
           {% endfor %}
         </div>
