@@ -80,7 +80,7 @@ slides:
         {% endif %}
 
         <li class='frame {{class}}'>
-          <div class='bg' style='background-image: url({{site.baseurl}}{{slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{slide.bg}});'></div>
           {% if slide.infos %}
             {% for info in slide.infos %}
               <div class='info{{forloop.index}} {{info.animation}}' style=''>
