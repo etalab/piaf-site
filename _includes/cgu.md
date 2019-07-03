@@ -8,18 +8,18 @@
 
 ### Présentation
 
-[Entrepreneur-interet-general.etalab.gouv.fr](https://entrepreneur-interet-general.etalab.gouv.fr)
+[Entrepreneur-interet-general.etalab.gouv.fr](https://guillim.github.io/piaf-site/)
 est un site dédié au programme Entrepreneurs
 d’Intérêt Général (EIG et ci-après "Le Programme"), un programme public opéré par la mission
 Etalab, soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations.
 
 Il vise à présenter l'ambition du Programme, la communauté des entrepreneurs d'intérêt général et leurs mentors, et à sélectionner les défis EIG et les promotions d'entrepreneurs lors des périodes d'appel à projet et à candidature.
 
-### Appel à candidature - Promotion 3 
+### Appel à candidature - Promotion 3
 
-Nous organisons un appel à candidature du 13 septembre au 15 octobre 2018 pour sélectionner les entrepreneurs d'intérêt général de la Promotion 3. Le formulaire de candidature est disponible à l'adresse suivante : [https://demarches-simplifiees.fr/commencer/candidature-eig3](https://demarches-simplifiees.fr/commencer/candidature-eig3). 
+Nous organisons un appel à candidature du 13 septembre au 15 octobre 2018 pour sélectionner les entrepreneurs d'intérêt général de la Promotion 3. Le formulaire de candidature est disponible à l'adresse suivante : [https://demarches-simplifiees.fr/commencer/candidature-eig3](https://demarches-simplifiees.fr/commencer/candidature-eig3).
 
-L'espace ["Participer"](/candidature-eig.html) vous permet d'obtenir plus d'informations sur le Programme et les conditions de participation. 
+L'espace ["Participer"](/candidature-eig.html) vous permet d'obtenir plus d'informations sur le Programme et les conditions de participation.
 
 Conformément au [règlement de l'appel à candidature](/docs/20180910_Règlement-AAC-EIG3.pdf), les candidatures font l'objet d'une pré-sélection avant le passage devant un jury.
 
@@ -38,7 +38,7 @@ Nous collectons des données anonymes d'audience du site, dans le respect des co
 
 **Vos données à caractère personnel**
 
-Nous traitons des données à caractère personnel vous concernant, 
+Nous traitons des données à caractère personnel vous concernant,
 dans deux cas :
 - si vous rejoignez notre liste de diffusion ;
 - si vous candidatez pour devenir entrepreneur d'intérêt général.
@@ -54,11 +54,11 @@ A ce titre, nous traitons certaines données à caractère personnel (nom, prén
 
 Nous avons accès aux données du formulaire de candidature pour traiter les candidatures et en assurer le suivi. Conservées au plus deux ans à compter du dépôt de candidature, ces données seront traitées pour
 opérer la pré-sélection, la sélection et, éventuellement, dans le
-cadre du suivi des lauréats finaux. Ce traitement est nécessaire à 
-l’exécution de mesures précontractuelles prises à votre demande, 
-conformément aux dispositions du réglement général de protection des données. 
-Ont accès à ces données les personnes habilitées de la mission 
-Etalab, des administrations d'accueil et le jury. 
+cadre du suivi des lauréats finaux. Ce traitement est nécessaire à
+l’exécution de mesures précontractuelles prises à votre demande,
+conformément aux dispositions du réglement général de protection des données.
+Ont accès à ces données les personnes habilitées de la mission
+Etalab, des administrations d'accueil et le jury.
 
 Nous nous engageons à prendre toutes les mesures nécessaires pour garantir leur sécurité et leur confidentialité, dans le respect du cadre légal et à n'opérer aucune commercialisation des informations que vous nous transmettez et à ne pas les communiquer à des tiers, en dehors des cas prévus par la loi.
 
