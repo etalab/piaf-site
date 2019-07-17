@@ -13,7 +13,7 @@
 - name: Contribuer
   section_id: participer
   children:
-  - name: Je suis un candidat
+  - name: Annoter des articles
     path: candidature-eig.html
-  - name: Je suis une administration
+  - name: Proposer un cas d'usage
     path: candidature-defi.html
