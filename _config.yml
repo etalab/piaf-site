@@ -1,6 +1,6 @@
 # Site settings
-title: Entrepreneurs d'intérêt général
-email: entrepreneur-interet-general@data.gouv.fr
+title: Piaf
+email: guillaume.lancrenon@data.gouv.fr
 description: > # this means to ignore newlines until "baseurl:"
   Professionnels du développement, de la datascience,
   du design et de l'agile, passionnés du numérique et
@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "piaf-site/"
 url: "https://guillim.github.io/"
 twitter_username: etalab
-github_username:  entrepreneur-interet-general
+github_username:  guillim
 list_url: https://lists.eig-forever.org/subscribe/entrepreneur-interet-general@mail.etalab.studio
 
 plugins: [jekyll-paginate]
