@@ -47,12 +47,6 @@ layout: default
     {% else %}{% assign col_class = 'large-3' %}
     {% endcase %}
 
-    {% for eig in defi_data.eigs %}
-      {% include personne_small.html extra_class=col_class name=eig %}
-    {% endfor %}
-    {% for mentor in defi_data.mentors %}
-      {% include personne_small.html extra_class=col_class name=mentor %}
-    {% endfor %}
   </div>
 
   <div class="row">
