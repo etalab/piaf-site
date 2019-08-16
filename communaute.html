@@ -37,6 +37,11 @@ section_id: communaute
 
       <h2>Ils participent au projet PIAF </h2>
 	  <p> mettre logos : PIA, reciTAL, common voice ?...</p>
-	  
+      {% for partenaire in site.data.partenaires %}
+        <div class="large-3 medium-5 small-6 columns">
+	  <div class="one spacing"></div>
+          <img src="partenaire.src">
+        </div>
+      {% endfor %}
     </div>
 </div>
