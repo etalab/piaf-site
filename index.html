@@ -17,6 +17,7 @@ boxes:
     text:
       Placeat vel
 
+
 motivations:
   - icon_class: fa fa-adn
     desc: Créer une communauté numérique d'intérêt général qui allie administrations et particuliers.
@@ -29,7 +30,7 @@ motivations:
 
 piliers:
   - icon_class: fa fa-flask
-    title: <a href="/presentation.html">Un protocole scientifique</a>
+    title: <a href="/presentation.html">Annoter des articles</a>
     desc: PIAF s'inspire du projet SQuAD initié aux Etats-Unis. La démarche s'appuie sur un protocole scientifique construit avec des datascientists spécialisés en traitement automatique du langage.
   - icon_class: fa fa-users
     title: <a href="/communaute.html">Une communauté de contributeurs</a>
@@ -48,8 +49,8 @@ slides:
       animation: bottom-to-top
       class: large-7 large-offset-3 medium-7 medium-offset-3
       items:
-        - text: <strong>Découvrir le projet PIAF</strong>
-          url: presentation.html
+        - text: <strong>Contribuez à PIAF</strong>
+          url: piaf.etalab.studio/app
           class: boxed
 ---
 
@@ -115,6 +116,42 @@ slides:
       {% endfor %}
     </ul>
   </div>
+</div>
+
+
+<div class='full' style='background: #f5f5f5'>
+    <div class='row'>
+  <div style="text-align:center;"><h2>Aidez-nous à construire un jeu de données ouvert de questions-réponses en français !</h2></div>
+  <div class='spacing'></div>
+  <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+    <div class='boxes'>
+        {% for motivation in page.motivations %}
+        <div class='box' style='background: #f9f9f9;'>
+      <i class='{{motivation.icon_class}}'></i>
+      <p>{{motivation.desc}}</p>
+        </div>
+        {% endfor %}
+    </div>
+      </div>
+  </div>
+    </div>
+    <div class='spacing'></div>
+</div>
+
+<div class='full no-padding' style='background: #1c419b; color: #fff'>
+    <div class='one spacing'></div>
+    <div class='mod modCallToAction'>
+  <div class='row'>
+      <div class='medium-7 large-7 columns'>
+    <p>Concrètement, comment contribuer au projet PIAF ?</p>
+      </div>
+      <div class='medium-5 large-5 columns' style='text-align: right;'>
+    <a class='boxed button' href='candidature-eig.html'><strong>Consulter le mode d'emploi</strong></a>
+      </div>
+        </div>
+    </div>
+    <div class='one spacing'></div>
 </div>
 
 <div class='full' style='background: #f5f5f5'>
