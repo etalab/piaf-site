@@ -17,7 +17,7 @@ Ce site vise à présenter le projet PIAF (la démarche, les actualités, les pa
 
 Lors de votre inscription sur la plateforme d'annotation [piaf.etalab.studio/app](https://guillim.github.io/piaf-site/), vous saisissez une adresse électronique. Celle-ci est utilisée pour : 
 * vous permettre de réinitialiser votre mot de passe ; 
-* nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contribution (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produit seront publiées). 
+* nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contributions (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produites seront publiées). 
 
 Conformément aux dispositions de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent. Pour demander une modification, rectification ou suppression des données vous concernant, il vous suffit de nous écrire par voie électronique à [piaf@data.gouv.fr](mailto:piaf@data.gouv.fr) ou postale à Mission Etalab, 20, avenue de Ségur, 75007 Paris en justifiant de votre identité. Si vous estimez, après nous avoir contactés, que vos droits Informatique et Libertés ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL.
 
@@ -41,9 +41,9 @@ Nous nous réservons le droit de bloquer, sans information préalable ni compens
 
 ## Mentions légales
 
-**Editeur**
+**Éditeur**
 
-Mission Étalab, Direction interministérielle du numérique et du
+Mission Etalab, Direction interministérielle du numérique et du
 système d'information et de communication de l'Etat (DINSIC), située au
 20, avenue de Ségur, 75007 Paris.
 
