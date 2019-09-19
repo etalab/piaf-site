@@ -1,6 +1,6 @@
-#+title: Site Entrepreneur d’intérêt général
+#+title: Site PIAF
 
-Site du programme Entrepreneur d'intérêt général.
+Site du projet PIAF
 
 * Comment tester en local ?
 
