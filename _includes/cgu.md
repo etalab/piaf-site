@@ -31,7 +31,9 @@ Nous collectons des données anonymes d'audience du site, dans le respect des co
 
 Les données produites dans le cadre de l'annotation seront ouvertes sous format libre et réutilisable une fois que la partie scientifique du projet sera terminée.
 
-Le code source du site et d'interface d'annotation est ouvert. 
+Pour des fins d'évaluation scientifique, 10% des données collectées dans le cadre de l'annotation restera fermée. Il s'agit d'une base d'évaluation qui permet de tester des modèles existants sur le jeu de données produit et de comparer la performance des algorithmes entre eux (score-board). 
+
+Le code source du site et de l'interface d'annotation est ouvert. 
 
 ### Évolutions
 
