@@ -6,16 +6,18 @@
 
 « Vous » se réfère à l’utilisateur du site.
 
-### Présentation
+### Présentation du projet
 
-[piaf.etalab.studio](https://guillim.github.io/piaf-site/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC)
-d’Intérêt Général (EIG et ci-après "Le Programme"), un programme public opéré par la mission et soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations.
+[piaf.etalab.studio](https://guillim.github.io/piaf-site/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations.
 
-Ce site vise à présenter le projet PIAF (la démarche, les actualités, les partenaires) et permettre l'annotation par des humains de 120 000 articles Wikipédia afin de générer une base de données ouverte de questions-réponses en français, utile pour développer des projets d'intelligence artificielle.
+Ce site vise à présenter le projet PIAF (la démarche, les actualités, les partenaires) et permettre l'annotation par des humains de 120 000 articles Wikipédia afin de générer une base de données ouvertes de questions-réponses en français, utile pour développer des projets d'intelligence artificielle. 
+
+Grâce à un module d'annotation [piaf.etalab.studio/app](https://piaf.etalab.studio), les contributeurs sont invités à lire un article Wikipédia, formuler des questions et sélectionner la réponse dans le texte. 
 
 ### Traitement des données
 
-Lors de votre inscription sur la plateforme d'annotation [piaf.etalab.studio/app](https://guillim.github.io/piaf-site/), vous saisissez une adresse électronique. Celle-ci est utilisée pour : 
+Lors de votre inscription sur la plateforme d'annotation [piaf.etalab.studio/app](https://piaf.etalab.studio), vous saisissez une adresse électronique. Celle-ci est utilisée pour : 
+* vous permettre d'accéder à l'interface d'annotation ;
 * vous permettre de réinitialiser votre mot de passe ; 
 * nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contributions (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produites seront publiées). 
 
@@ -27,9 +29,9 @@ Nous collectons des données anonymes d'audience du site, dans le respect des co
 
 ### Données et code source
 
-Les données collectées dans le cadre de l'annotation seront ouvertes sous format libre et réutilisable une fois que la partie scientifique du projet sera terminée.
+Les données produites dans le cadre de l'annotation seront ouvertes sous format libre et réutilisable une fois que la partie scientifique du projet sera terminée.
 
-Le code source du site et de la plateforme d'annotation est ouvert. 
+Le code source du site et d'interface d'annotation est ouvert. 
 
 ### Évolutions
 
