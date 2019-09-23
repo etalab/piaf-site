@@ -8,7 +8,7 @@ section_id: blog
 <ul class="small-block-grid-1 large-block-grid-2 mt-2">
 {% for post in paginator.posts %}
   <li style="padding: 0 .3em">
-    {{ include post.author_link }}
+    {{ post.author_link }}
   </li>
 {% endfor %}
 </ul>
