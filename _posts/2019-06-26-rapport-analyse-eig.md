@@ -11,11 +11,11 @@ description: "Dans le cadre de la démarche d'évaluation du programme menée pa
 
 Le programme Entrepreneurs d'Intérêt Général permet d'intégrer pour 10 mois des profils numériques d'exception dans les administrations pour relever des défis d'amélioration du service public à l'aide du numérique et des données. Ces entrepreneurs sont épaulés par des mentors qui participent à leur bonne intégration au sein des administrations, et forment une promotion accompagnée toute l'année par une équipe d'[Etalab](https://www.etalab.gouv.fr/qui-sommes-nous), au sein de la [Direction interministérielle du numérique](https://numerique.gouv.fr/dinsic/).
 
-Alors que la troisième promotion EIG bat son plein, l’équipe de coordination du programme mène une [démarche d'évaluation sur le programme que nous vous présentions la semaine dernière](https://guillim.github.io/piaf-site//blog/2019/06/12/demarche-mesure-impact-eig.html). 
+Alors que la troisième promotion EIG bat son plein, l’équipe de coordination du programme mène une [démarche d'évaluation sur le programme que nous vous présentions la semaine dernière](https://etalab.github.io/piaf-site//blog/2019/06/12/demarche-mesure-impact-eig.html). 
 
 **Quels sont les objectifs de cette démarche ?**
 
-Après avoir publié les [données du programme en ligne](https://guillim.github.io/piaf-site//blog/2019/05/09/chiffres-eig), nous souhaitions poursuivre cette démarche d'évaluation en enquêtant sur trois aspects clés du programme :
+Après avoir publié les [données du programme en ligne](https://etalab.github.io/piaf-site//blog/2019/05/09/chiffres-eig), nous souhaitions poursuivre cette démarche d'évaluation en enquêtant sur trois aspects clés du programme :
 - la capacité des défis à développer **des outils répondant à des besoins du terrain, utilisés et pérennisés** après le programme ;
 - la capacité des EIG à diffuser **une culture du numérique dans leurs administrations d’accueil**, notamment sur l’open data, l’open source, les méthodes de travail agiles, centrées sur l’utilisateur ;
 - le rôle joué par **le programme et l’équipe de coordination** dans la réussite des projets et les axes d’amélioration et d’évolution possibles.
@@ -29,27 +29,27 @@ Nous avons opté pour une méthodologie simple pour mieux comprendre ces aspects
 Cette enquête a certaines limites, comme le fait que nous n'avons pas pu contacter toutes les parties prenantes du programme, que cette étude ne peut pas aborder de manière exhaustive toutes les externalités liées au programme et qu'elle a été réalisée en interne et non de manière indépendante.
 Cependant, les résultats présentent des tendances intéressantes sur l'action des EIG dans la transformation numérique de l'État et sur les parcours des EIG dans l'administration.
 
-## **[Voir le rapport au format PDF](https://guillim.github.io/piaf-site//docs/Rapport-analyse-EIG.pdf)**.
+## **[Voir le rapport au format PDF](https://etalab.github.io/piaf-site//docs/Rapport-analyse-EIG.pdf)**.
 
 ## Quels sont les enseignements principaux de cette enquête ?
 
 **Le programme EIG permet de développer des outils qui répondent aux attentes des agents publics et des usagers**.
 
-La majorité des défis arrive à transformer l'essai et à utiliser les 10 mois du programme pour développer des outils pérennisés après le départ des EIG. Ainsi, la grande majorité des outils créés par les EIG ont soit déjà été mis en production, soit vont l'être prochainement. A noter que les outils sont souvent mis en production quelques mois après la fin des défis, ce qui justifie l'accent mis sur [la pérennisation](https://guillim.github.io/piaf-site//blog/2019/05/20/session-perennisation-defis-eig-3.html) dès le lancement de chaque promotion.
+La majorité des défis arrive à transformer l'essai et à utiliser les 10 mois du programme pour développer des outils pérennisés après le départ des EIG. Ainsi, la grande majorité des outils créés par les EIG ont soit déjà été mis en production, soit vont l'être prochainement. A noter que les outils sont souvent mis en production quelques mois après la fin des défis, ce qui justifie l'accent mis sur [la pérennisation](https://etalab.github.io/piaf-site//blog/2019/05/20/session-perennisation-defis-eig-3.html) dès le lancement de chaque promotion.
 
 Cette réussite peut être expliquée par plusieurs facteurs. D'une part, les réalisations répondent à de vrais besoins : plus de 90% des mentors interrogés estiment que les outils répondent à leurs attentes initiales. D'autre part, cette pérennisation est permise par les rôles complémentaires dans les équipes défis : les EIG apportent des compétences techniques, le mentor opérationnel (agent public porteur du défi) fait le lien avec les métiers et le mentor de haut niveau, intervient à des moments stratégiques et permet de faire connaître les réalisations à un haut niveau de la hiérachie.
 
 **Au-delà des outils, les échanges qui s'opèrent entre EIG et mentors ont des bénéfices plus larges pour la transformation numérique de l'administration**.
 
-Les mentors indiquent avoir déposé leur projet dans le but d'accueillir des compétences absentes de leurs services pour développer des outils. On constate que la présence des EIG dans les administrations participe à bien plus que cela : création d'outils annexes, formations auprès des agents sur des notions techniques ou de gestion de projets, développement de la culture de l'ouverture ([open data, open source](https://guillim.github.io/piaf-site//blog/2019/04/12/accompagnement-open-data-open-source.html)). En cela, l'intégration des EIG dans les services crée des externalités positives qui participent à la transformation numérique des administrations.
+Les mentors indiquent avoir déposé leur projet dans le but d'accueillir des compétences absentes de leurs services pour développer des outils. On constate que la présence des EIG dans les administrations participe à bien plus que cela : création d'outils annexes, formations auprès des agents sur des notions techniques ou de gestion de projets, développement de la culture de l'ouverture ([open data, open source](https://etalab.github.io/piaf-site//blog/2019/04/12/accompagnement-open-data-open-source.html)). En cela, l'intégration des EIG dans les services crée des externalités positives qui participent à la transformation numérique des administrations.
 
-![Capture d'écran qui présente les résultats de l'enquête sur les apports de la présence des EIG au cours des défis](https://guillim.github.io/piaf-site//img/blog/illustration-graphe-rapport-evaluation.png)_Graphique présentant les résultats de l'enquête sur les bénéfices de la présence des EIG dans leurs administrations._
+![Capture d'écran qui présente les résultats de l'enquête sur les apports de la présence des EIG au cours des défis](https://etalab.github.io/piaf-site//img/blog/illustration-graphe-rapport-evaluation.png)_Graphique présentant les résultats de l'enquête sur les bénéfices de la présence des EIG dans leurs administrations._
 
 **L'accompagnement des EIG tout au long de l'année et la création d'une communauté sont des facteurs importants pour la réussite des défis**.
 
 La dimension de "communauté", est essentielle à la réussite des défis. Ainsi, les EIG plébiscitent les sessions collectives d'accompagnement, qui permettent notamment de développer l'entraide et l'émulation entre les équipes et de créer un esprit de groupe, considéré comme essentiel à la réussite des défis.
 
-Par ailleurs, les EIG interrogés plébiscitent le suivi tout au long des 10 mois effectué par [l’équipe de coordination](https://guillim.github.io/piaf-site//accompagnement.html) et les [EIG Link](https://guillim.github.io/piaf-site//defis/2019/eiglink.html). Le positionnement du programme au sein d'Etalab et de la DINSIC est crucial : plus de la moitié des EIG des deux premières promotions ont fait appel à l’expertise technique et juridique de membres de l’équipe d’Etalab, notamment sur l'ouverture de données, les licences open source, la mutualisation interministérielle ou la mise à disposition de ressources techniques.
+Par ailleurs, les EIG interrogés plébiscitent le suivi tout au long des 10 mois effectué par [l’équipe de coordination](https://etalab.github.io/piaf-site//accompagnement.html) et les [EIG Link](https://etalab.github.io/piaf-site//defis/2019/eiglink.html). Le positionnement du programme au sein d'Etalab et de la DINSIC est crucial : plus de la moitié des EIG des deux premières promotions ont fait appel à l’expertise technique et juridique de membres de l’équipe d’Etalab, notamment sur l'ouverture de données, les licences open source, la mutualisation interministérielle ou la mise à disposition de ressources techniques.
 
 **Le programme transforme aussi les EIG et leurs trajectoires professionnelles**.
 
@@ -64,4 +64,4 @@ En conclusion, on peut donc affirmer que les EIG contribuent bien à la transfor
 
 La démarche d'évaluation se poursuivra avec la publication prochaine d'une analyse de différentes initiatives de recrutement similaires au programme EIG dans d'autres pays.
 
-_Si vous avez envie d'en savoir plus sur [le rapport](https://guillim.github.io/piaf-site//docs/Rapport-analyse-EIG.pdf) après l'avoir lu, vous pouvez contacter [l'équipe de coordination du programme EIG par mail](mailto:entrepreneur-interet-general@data.gouv.fr). Nous serons ravis d'en discuter avec vous._
+_Si vous avez envie d'en savoir plus sur [le rapport](https://etalab.github.io/piaf-site//docs/Rapport-analyse-EIG.pdf) après l'avoir lu, vous pouvez contacter [l'équipe de coordination du programme EIG par mail](mailto:entrepreneur-interet-general@data.gouv.fr). Nous serons ravis d'en discuter avec vous._

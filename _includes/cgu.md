@@ -8,7 +8,7 @@
 
 ### Présentation du projet
 
-[piaf.etalab.studio](https://guillim.github.io/piaf-site/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations.
+[piaf.etalab.studio](https://etalab.github.io/piaf-site/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations.
 
 Ce site vise à présenter le projet PIAF (la démarche, les actualités, les partenaires) et permettre l'annotation par des humains de 120 000 articles Wikipédia afin de générer une base de données ouvertes de questions-réponses en français, utile pour développer des projets d'intelligence artificielle. 
 
