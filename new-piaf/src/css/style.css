@@ -38,14 +38,16 @@
 
 .header {
   height: 3rem;
+  transition: height 0.3s;
 
   @media (min-width: 640px) {
     height: 6rem;
-    transition: height 0.3s;
+  }
+}
 
-    &.shrink {
-      height: 4rem;
-    }
+.header.shrink {
+  @media (min-width: 640px) {
+    height: 4rem;
   }
 }
 
@@ -213,10 +215,10 @@
 .mobile-nav {
   transform: translateX(-100%);
   transition: all .3s;
+}
 
-  &.is-active {
-    transform: translateX(0);
-  }
+.mobile-nav.is-active {
+  transform: translateX(0);
 }
 
 /*!

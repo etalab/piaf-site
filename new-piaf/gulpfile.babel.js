@@ -60,6 +60,7 @@ task("processStyles", done => {
         !devBuild,
         new purgecss({
           content: ["_site/**/*.html"],
+          whitelist: ['is-active', 'shrink'],
           extractors: [
             {
               extractor: TailwindExtractor,
