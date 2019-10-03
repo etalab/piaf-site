@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: pages
+dropdown_id: demarche
 section_id: presentation
+js_file: presentation
+
 key_figures:
   -
     amount: 120000
@@ -16,83 +19,46 @@ key_figures:
     description: "organisations partenaires"
 ---
 
-<div class="row">
+<div class="container mx-auto font-cooper-light text-blue"> 
+  <div class="flex flex-wrap sm:flex-no-wrap mb-16">
     {% for key_figure in page.key_figures %}
-    <div class="small-6 columns text-center large-3">
-      <div class="mod modMilestone no-icon">
-        <strong data-from="0" data-to="{{ key_figure.amount }}">{{ key_figure.amount }}</strong>
-        <span>{{ key_figure.description }}</span>
-        <div class="spacing"></div>
-      </div>
+    <div class="w-full sm:w-1/4 flex flex-wrap justify-center">
+      <p class="font-cooper-semi-bold text-6xl min-h-24 countup" data-count="{{ key_figure.amount }}"></p>
+      <p class="w-full text-center">{{ key_figure.description }}</p>
     </div>
     {% endfor %}
   </div>
+  
+  <div class="w-full sm:w-2/3 px-6 sm:px-0 mx-auto">
+    <h2 class="text-4xl mb-6">PIAF, construire un jeu de données francophones ouvert pour l’IA</h2>
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2>PIAF, construire un jeu de données francophones ouvert pour l’IA</h2>
+    <p>Le recours à l’intelligence artificielle au sein de l’action publique est souvent identifié comme une opportunité pour interroger des textes documentaires et réaliser des outils de questions/réponses automatiques à destination des usagers. Interroger le code du travail en langage naturel, mettre à disposition un agent conversationnel pour un service donné, développer des moteurs de recherche performants, améliorer la gestion des connaissances, autant d’activités qui nécessitent de disposer de corpus de données d’entraînement de qualité afin de développer des algorithmes de questions/réponses.</p>
+    
+    <p class="font-cooper-medium">Aujourd’hui, il n’existe pas de jeux de données d’entraînement francophones publics et ouverts qui permettraient d’entraîner ces algorithmes.</p>
+    
+    <h2 class="text-4xl mb-6 mt-8">L’ambition du projet PIAF est de construire ce(s) jeu(x) de données francophones pour l’IA de manière ouverte et contributive</h2>
 
-      <p>Le recours à l’intelligence artificielle au sein de l’action publique est souvent identifié comme une opportunité pour interroger des textes documentaires et réaliser des outils de questions/réponses automatiques à destination des usagers. Interroger le code du travail en langage naturel, mettre à disposition un agent conversationnel pour un service donné, développer des moteurs de recherche performants, améliorer la gestion des connaissances, autant d’activités qui nécessitent de disposer de corpus de données d’entraînement de qualité afin de développer des algorithmes de questions/réponses.</p>
-	    
-      <p><strong>Aujourd’hui, il n’existe pas de jeux de données d’entraînement francophones publics et ouverts qui permettraient d’entraîner ces algorithmes.</strong></p>
-	    
+    <p class="font-cooper-medium mb-4">Plusieurs étapes sont prévues :</p>
+          
+    <ul class="list-disc pl-6">
+      <li><strong class="font-cooper-medium">Développer une plateforme d’annotation</strong>, inspirée du projet anglophone <a href="https://rajpurkar.github.io/SQuAD-explorer/"> SQuAD </a> développé à Stanford, afin d’annoter des articles de Wikipédia en français et tester la performance d’une telle démarche</li>
+      <li><strong class="font-cooper-medium">Construire ce jeu de données francophone avec une communauté de contributeurs</strong> : l’annotation d’articles étant une tâche importante dans l’IA, nous avons choisi d’en faire un projet collectif et participatif. Citoyens, associations, chercheurs et agents publics sont invités à participer à une campagne d’annotation pour construire le premier jeu ouvert de données francophones pour ensuite en bénéficier !</li>
+      <li>Une fois ce jeu de donnée constitué, nous pourrons ensuite le tester et l’utiliser pour des cas d’usage concrets rencontrés par des administrations.</li>
+    </ul>
+    
+    <h2 class="text-4xl mb-6 mt-8">PIAF, un outil mutualisé du Lab IA</h2>
+    
+    <p class="mb-6">En mars 2018, la France a lancé sa stratégie nationale pour l’intelligence artificielle. Pilotée au sein de la Direction interministérielle du numérique et du système d’information et de communication de l’Etat, cette stratégie comprend trois volet : la recherche, l’économie et la transformation publique.</p>
+          
+    <p class="mb-6">La politique de la donnée étant un axe majeur du développement de l’intelligence artificielle, la mission Etalab pilote la mise en place d’un “Lab IA” interministériel, dont la mission est d’accélérer le déploiement de l’IA dans les administrations via 3 activités principales :<p>
+    
+    <div class="flex flex-wrap sm:flex-no-wrap">
+      <p class="w-full sm:w-1/3">Constituer une équipe coeur afin d’internaliser des compétences et de l’expertise autour de l’IA</p>
+      <p class="w-full my-2 sm:my-0 sm:w-1/3 sm:px-6">Accompagner des projets d’IA dans les administrations, par l’intermédiaire d’appels à manifestations d’intérêts</p>
+      <p class="w-full sm:w-1/3"><strong class="font-cooper-medium">Co-construire des outils mutualisés pouvant être utilisés de la manière la plus ouverte possible</strong></p>
     </div>
-    </div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-	<h2>L’ambition du projet PIAF est de construire ce(s) jeu(x) de données francophones pour l’IA de manière ouverte et contributive</h2>
-	    	    
-      <p><strong>Plusieurs étapes sont prévues : </strong></p>
-	    
-	<ul>
-	<li><strong>Développer une plateforme d’annotation</strong>, inspirée du projet anglophone <a href="https://rajpurkar.github.io/SQuAD-explorer/"> SQuAD </a> développé à Stanford, afin d’annoter des articles de Wikipédia en français et tester la performance d’une telle démarche</li>
-	<li><strong>Construire ce jeu de données francophone avec une communauté de contributeurs</strong> : l’annotation d’articles étant une tâche importante dans l’IA, nous avons choisi d’en faire un projet collectif et participatif. Citoyens, associations, chercheurs et agents publics sont invités à participer à une campagne d’annotation pour construire le premier jeu ouvert de données francophones pour ensuite en bénéficier !</li>
-	<li>Une fois ce jeu de donnée constitué, nous pourrons ensuite le tester et l’utiliser pour des cas d’usage concrets rencontrés par des administrations.</li>
-	</ul>
-
-	    
-    </div>
+    <p class="my-6">Le projet PIAF est l'un des outils mutualisés du Lab IA.</p>
+    <p class="italic">Le projet PIAF est porté par <a class="text-red text-link" target="new" href="https://www.etalab.gouv.fr/qui-sommes-nous">Etalab</a> et bénéficie du financement du Programme d'investissements d'avenir, piloté par le <a class="text-red text-link" target="new" href="https://www.gouvernement.fr/le-secretariat-general-pour-l-investissement">Secrétariat général pour l'investissement</a> et la <a class="text-red text-link" target="new" href="https://www.caissedesdepots.fr/">Caisse des dépôts et consignations</a>.</p>
   </div>
 
-	
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2>PIAF, un outil mutualisé du Lab IA</h2>
-
-      <p>En mars 2018, la France a lancé sa stratégie nationale pour l’intelligence artificielle. Pilotée au sein de la Direction interministérielle du numérique et du système d’information et de communication de l’Etat, cette stratégie comprend trois volet : la recherche, l’économie et la transformation publique.</p>
-	    
-      <p>La politique de la donnée étant un axe majeur du développement de l’intelligence artificielle, la mission Etalab pilote la mise en place d’un “Lab IA” interministériel, dont la mission est d’accélérer le déploiement de l’IA dans les administrations via 3 activités principales :<p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="columns medium-4">
-      <p>
-        Constituer une équipe coeur afin d’internaliser des compétences et de l’expertise autour de l’IA
-      </p>
-    </div>
-    <div class="columns medium-4">
-     <p>
-	Accompagner des projets d’IA dans les administrations, par l’intermédiaire d’appels à manifestations d’intérêts
-      </p>
-    </div>
-	<div class="columns medium-4">
-     <p>
-	<strong>Co-construire des outils mutualisés pouvant être utilisés de la manière la plus ouverte possible</strong>      
-	</p>
-    </div>
-  </div>
-	
-  <div class='row'>
-    <div class='large-12 columns'>
-	    <p>Le projet PIAF est l'un des outils mutualisés du Lab IA.</p>
-	    <p><em>Le projet PIAF est porté par <a target="new" href="https://www.etalab.gouv.fr/qui-sommes-nous">Etalab</a> et bénéficie du financement du Programme d'investissements d'avenir, piloté par le <a target="new" href="https://www.gouvernement.fr/le-secretariat-general-pour-l-investissement">Secrétariat général pour l'investissement</a> et la <a target="new" href="https://www.caissedesdepots.fr/">Caisse des dépôts et consignations</a>.</em></p>
-    </div>
-  </div>
-
-  <div class='two spacing'></div>
-
+</div>

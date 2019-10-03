@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: pages
 section_id: cgu
 ---
 
-<div class='full no-padding'>
-    <div class='two spacing'></div>
-    <div class='row'>
-	{% capture my_include %}{% include cgu.md %}{% endcapture %}
-	{{ my_include | markdownify }}
-    </div>
+<div class="container mx-auto font-cooper-light text-blue"> 
+  <div class="w-full sm:w-2/3 px-6 sm:px-0 mx-auto markdown-content">
+    {% capture my_include %}{% include cgu.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
 </div>
