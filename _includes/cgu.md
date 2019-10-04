@@ -60,4 +60,4 @@ Siège social : 2 rue Kellermann - 59100 Roubaix - France.
 
 ### Absence de garantie
 
-Le site est mis à disposition sans garantie sur sa disponibilité. D’éventuelles 
+Le site est mis à disposition sans garantie sur sa disponibilité. D’éventuelles indisponibilités n'ouvriront pas droit à compensation financière.
