@@ -1,56 +1,33 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 
-  <title>{% if page.layout == 'defi'%}{{ site.data.defis[page.title].title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
-  <meta name="description" content="Défi EIG - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - {% if page.layout == 'defi' %}{{ site.data.defis[page.title].description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <!-- Primary Meta Tags -->
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="description" content="">
 
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="Défi EIG - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - {% if page.layout == 'defi' %}{{ site.data.defis[page.title].description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% for image in page.images %}{{ image }}{% endfor %}" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
 
-  <link rel="stylesheet" href="{{ "css/foundation.css" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "css/jquery-ui.css" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "css/fontello.css" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "css/font-awesome.css" | prepend: site.baseurl | prepend: site.url }}">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="">
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:image" content="">
 
-  <script src="{{ "javascripts/modernizr.foundation.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/jquery-2.1.0.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/terrific-1.1.1.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/jquery.url.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/jquery.cookie.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/jquery-ui.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/json2.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/foundation.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script>
-  jQuery( function() {
-    jQuery( "#accordion" ).accordion();
-  } );
-  </script>
-  <script>
-    // terrificjs bootstrap
-    (function($) {
-        $(document).ready(function() {
-            var $page = $('body');
-            var config = {
-              dependencyPath: {
-                plugin: 'javascripts/'
-              }
-            }
-            var application = new Tc.Application($page, config);
-            application.registerModules();
-            application.start();
-        });
-    })(Tc.$);
-  </script>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
-  <script src="{{ "javascripts/masonry.pkgd.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/imagesloaded.pkgd.min.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-  <script src="{{ "javascripts/slick.min.js" | prepend: site.baseurl | prepend: site.url }}" type="text/javascript"></script>
-
-  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+  <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 </head>

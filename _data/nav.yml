@@ -1,19 +1,24 @@
 - name: Démarche
-  section_id: presentation
-  path: presentation.html
+  section_id: demarche
+  children:
+    - name: Présentation
+      path: /presentation.html
+      section_id: presentation
+    - name: Annoter des articles
+      path: /candidature-eig.html
+      section_id: candidature-eig
+    - name: Proposer un cas d'usage
+      path: /candidature-defi.html
+      section_id: candidature-defi
  
 - name: Qui sommes-nous
   section_id : communaute
-  path: communaute.html
+  path: /communaute.html
 
 - name: Actualités
-  section_id: blog
-  path: blog/
+  section_id: actualites
+  path: /actualites.html
 
 - name: Contribuer
   section_id: participer
-  children:
-  - name: Annoter des articles
-    path: candidature-eig.html
-  - name: Proposer un cas d'usage
-    path: candidature-defi.html
+  

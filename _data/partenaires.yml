@@ -1,2 +1,5 @@
-"recital"
+- name: recital
+  src: img/recital.png
+  
+- name: Common voice
   src: img/recital.png
