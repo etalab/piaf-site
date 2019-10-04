@@ -3,6 +3,7 @@
   "version": "5.0.12",
   "description": "A starter kit for using Tailwind with Jekyll",
   "main": "gulpfile.babel.js",
+  "homepage": "https://cpelletier.github.io/",
   "devDependencies": {
     "autoprefixer": "9.6.1",
     "babel-preset-env": "1.7.0",
@@ -20,7 +21,9 @@
   "scripts": {
     "build": "NODE_ENV=production gulp",
     "build:dev": "gulp",
-    "start": "gulp serve"
+    "start": "gulp serve",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "repository": {
     "type": "git",
@@ -41,6 +44,7 @@
     "countup.js": "^2.0.4",
     "file-loader": "^4.2.0",
     "fontfaceobserver": "^2.1.0",
+    "gh-pages": "^2.1.1",
     "gulp-babel": "^8.0.0",
     "gulp-plumber": "^1.2.1",
     "postcss-extend": "^1.0.5",
