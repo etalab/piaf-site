@@ -2,7 +2,7 @@
   section_id: demarche
   children:
     - name: Présentation
-      path: /presentation.html
+      path: presentation.html
       section_id: presentation
     - name: Annoter des articles
       path: /candidature-eig.html
