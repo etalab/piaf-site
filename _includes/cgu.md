@@ -42,7 +42,7 @@ Ce site comme ces conditions d’utilisation sont susceptibles d’évoluer
 
 ###  Utilisation
 
-Nous nous réservons le droit de bloquer, sans information préalable ni compensation financière, les utilisateurs et les usages mettant en péril l'utilisation du site par d'autres usagers
+Tout contenu à caractère raciste ou diffamatoire, grossier ou injurieux, agressif ou violent ou de façon générale qui contreviendrait aux bonnes mœurs, l’ordre public ou aux dispositions légales en vigueur sera supprimé et pourra, le cas échéant, être signalé aux autorités compétentes
 
 ## Mentions légales
 
