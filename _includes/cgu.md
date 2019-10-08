@@ -8,28 +8,32 @@
 
 ### Présentation du projet
 
-[piaf.etalab.studio](https://piaf.etalab.studio/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations
-Ce site vise à présenter le projet PIAF (la démarche, les actualités, les partenaires) et permettre l'annotation par des humains de 120 000 articles Wikipédia afin de générer une base de données ouvertes de questions-réponses en français, utile pour développer des projets d'intelligence artificielle.
-Grâce à un module d'annotation [piaf.etalab.studio/app](https://piaf.etalab.studio/app), les contributeurs sont invités à lire un article Wikipédia, formuler des questions et sélectionner la réponse dans le texte.
+[piaf.etalab.studio](https://piaf.etalab.studio/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations. Il vise à présenter le projet PIAF (la démarche, les actualités, les partenaires)
+
+Le module [piaf.etalab.studio/app](https://piaf.etalab.studio/app) permet l'annotation par des humains de paragraphes issues d'articles de Wikipédia en français afin de générer une base de données ouvertes de 120 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une et sélectionner la réponse dans le texte
 
 ###  Traitement des données
 
-Lors de votre inscription sur la plateforme d'annotation [piaf.etalab.studio/app](https://piaf.etalab.studio/app), vous saisissez une adresse électronique. Celle-ci est utilisée pour :
+Lors de votre inscription sur le module d'annotation [piaf.etalab.studio/app](https://piaf.etalab.studio/app), vous saisissez une adresse électronique. Celle-ci est utilisée pour :
 
 * vous permettre d'accéder à l'interface d'annotation ;
 * vous permettre de réinitialiser votre mot de passe ; 
 * nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contributions (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produites seront publiées). 
 
+Vous pouvez aussi saisir votre adresse électronique pour vous inscrire à la liste de diffusion https://listes.etalab.gouv.fr/listinfo/piaf qui vous informe des événements d’annotation
+
 Conformément aux dispositions de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent. Pour demander une modification, rectification ou suppression des données vous concernant, il vous suffit de nous écrire par voie électronique à [piaf@data.gouv.fr](mailto:piaf@data.gouv.fr) ou postale à Mission Etalab, 20, avenue de Ségur, 75007 Paris en justifiant de votre identité. Si vous estimez, après nous avoir contactés, que vos droits Informatique et Libertés ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL
 
 ### Cookies
 
-Nous collectons des données anonymes d'audience du site, dans le respect des conditions définies par la recommandation « Cookies » de la Commission nationale informatique et libertés (CNIL)
+Nous collectons des données anonymes d'audience du site, dans le respect des conditions définies par la [recommandation « Cookies »](https://www.cnil.fr/fr/cookies-et-autres-traceurs-la-cnil-publie-de-nouvelles-lignes-directrices) de la Commission nationale informatique et libertés (CNIL)
 
 ###  Données et code source
 
-Les données produites dans le cadre de l'annotation seront ouvertes sous format libre et réutilisable une fois que la partie scientifique du projet sera terminée
+Les données produites dans le cadre de l'annotation seront ouvertes en licence CC by SA une fois que la partie scientifique du projet sera terminée.
+
 Pour des fins d'évaluation scientifique, 10% des données collectées dans le cadre de l'annotation restera fermée. Il s'agit d'une base d'évaluation qui permet de tester des modèles existants sur le jeu de données produit et de comparer la performance des algorithmes entre eux (score-board).
+
 Le code source du site et de l'interface d'annotation est ouvert
 
 ###  Évolutions
@@ -38,7 +42,7 @@ Ce site comme ces conditions d’utilisation sont susceptibles d’évoluer
 
 ###  Utilisation
 
-Nous nous réservons le droit de bloquer, sans information préalable ni compensation financière, les utilisateurs et les usages mettant en péril l'utilisation du site par d'autres usagers
+Tout contenu à caractère raciste ou diffamatoire, grossier ou injurieux, agressif ou violent ou de façon générale qui contreviendrait aux bonnes mœurs, l’ordre public ou aux dispositions légales en vigueur sera supprimé et pourra, le cas échéant, être signalé aux autorités compétentes
 
 ## Mentions légales
 
@@ -60,4 +64,4 @@ Siège social : 2 rue Kellermann - 59100 Roubaix - France.
 
 ### Absence de garantie
 
-Le site est mis à disposition sans garantie sur sa disponibilité. D’éventuelles 
+Le site est mis à disposition sans garantie sur sa disponibilité. D’éventuelles indisponibilités n'ouvriront pas droit à compensation financière.
