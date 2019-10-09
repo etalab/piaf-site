@@ -1,9 +1,6 @@
 title: Piaf
 description:
 
-baseurl: "/piaf-site/"
-url: "https://cpelletier.github.io/"
-
 exclude:
   - Gemfile
   - Gemfile.lock

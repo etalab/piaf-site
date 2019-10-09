@@ -18,40 +18,21 @@ document.addEventListener("DOMContentLoaded", function() {
     easing: 'linear'
   });
 
-  // Animations on home
-  let highlights = document.querySelectorAll('.home-top__highlight');
-  highlights.forEach(highlight => {
+  anime.default({
+    targets: '.highlight-svg__front path',
+    d: 'M24.2,51.1c0,0,23.4-63.7,114.2-16.1s83.4,91.2,83.4,91.2s4.7,15.4-46,54.3s-74.8,34.5-119-3.5  S10.3,135,14.2,107.1S24.2,51.1,24.2,51.1z',
+    easing: 'easeInOutSine',
+    duration: 2500,
+    direction: 'alternate',
+    loop: true
+  })
 
-    // let animation = anime.default({
-    //   targets: highlight.querySelector('.highlight-svg__front path'),
-    //   d: 'M18,52 C18,52 50,-32 121,15 C232,63 232,91 232,111 C232,81 236,156 186,205 C135,244 94,248 50,210 C6,192 -3,137 0,109 C4,81 18,52 18,52 Z',
-    //   duration: 1300,
-    //   scale: .98,
-    //   loop: true,
-    //   autoplay: false,
-    //   direction: 'alternate',
-    //   easing: 'linear'
-    // });
-
-    // let animation_back = anime.default({
-    //   targets: highlight.querySelector('.highlight-svg__back path'),
-    //   d: 'M18,52 C18,52 50,-32 121,15 C232,63 232,91 232,111 C232,81 236,156 186,205 C135,244 94,248 50,210 C6,192 -3,137 0,109 C4,81 18,52 18,52 Z',
-    //   duration: 1600,
-    //   scale: .95,
-    //   loop: true,
-    //   autoplay: false,
-    //   direction: 'alternate',
-    //   easing: 'easeInOutSine'
-    // });
-
-    // highlight.addEventListener('mousemove', function(){
-    //   animation.play()
-    //   animation_back.play()
-    // });
-    // highlight.addEventListener('mouseleave', function(){
-    //   animation.pause()
-    //   animation_back.pause()
-    // });
-  });
-
+  anime.default({
+    targets: '.highlight-svg__back path',
+    d: 'M45.2,60.2c0,0,42.5-50.1,98,0.4s45.1,83.3,45.1,83.3s-7.2,31-52.7,46.7c-45.5,15.7-78.3,16.7-102-17.8  C9.7,138.2,11,112.6,20,94.7C29,76.8,45.2,60.2,45.2,60.2z',
+    easing: 'easeInOutSine',
+    duration: 3500,
+    direction: 'alternate',
+    loop: true
+  })
 });
