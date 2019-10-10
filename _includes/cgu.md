@@ -10,7 +10,7 @@
 
 [piaf.etalab.studio](https://piaf.etalab.studio/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations. Il vise à présenter le projet PIAF (la démarche, les actualités, les partenaires)
 
-Le module [piaf.etalab.studio/app](https://piaf.etalab.studio/app) permet l'annotation par des humains de paragraphes issues d'articles de Wikipédia en français afin de générer une base de données ouvertes de 120 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une et sélectionner la réponse dans le texte
+Le module [piaf.etalab.studio/app](https://piaf.etalab.studio/app) permet l'annotation par des humains de paragraphes issus d'articles de Wikipédia en français afin de générer une base de données ouvertes de 120 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une question et sélectionner la réponse dans le texte
 
 ###  Traitement des données
 
@@ -34,7 +34,7 @@ Les données produites dans le cadre de l'annotation seront ouvertes en licence 
 
 Pour des fins d'évaluation scientifique, 10% des données collectées dans le cadre de l'annotation restera fermée. Il s'agit d'une base d'évaluation qui permet de tester des modèles existants sur le jeu de données produit et de comparer la performance des algorithmes entre eux (score-board).
 
-Le code source du site et de l'interface d'annotation est ouvert
+Le [code source du site](http://github.com/etalab/piaf-site) et de [l'interface d'annotation](https://github.com/etalab/piaf) est ouvert
 
 ###  Évolutions
 
