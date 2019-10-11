@@ -1,0 +1,47 @@
+---
+layout: pages
+dropdown_id: demarche
+section_id: presentation
+js_file: presentation
+
+key_figures:
+  -
+    amount: 18
+    description: "Octobre 2019"
+---
+
+<div class="container mx-auto font-cooper-light text-blue">
+  <div class="flex flex-wrap sm:flex-no-wrap mb-16">
+    {% for key_figure in page.key_figures %}
+    <div class="w-full sm:w-1/1 flex flex-wrap justify-center">
+      <p class="font-cooper-semi-bold text-6xl min-h-24 countup" data-count="{{ key_figure.amount }}"></p>
+      <p class="w-full text-center">{{ key_figure.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="w-full sm:w-2/3 px-6 sm:px-0 mx-auto">
+    <h2 class="text-4xl mb-6">PIAF, ouvrira le 18 octobre 2019</h2>
+
+    <p>Nous travaillons pour proposer la plateforme d'annotation le vendredi 18 octobre prochain. Merci infiniement de votre patience, et de l'interet que vous portez au projet</p>
+
+    <br>
+
+    <p class="font-cooper-medium">Sans vous, PIAF n'existera pas</p>
+
+    <h2 class="text-4xl mb-6 mt-8">Etre tenu informé par email</h2>
+
+    <p class="font-cooper-medium mb-4">C'est simple, vous pouvez vous inscrire sur cette liste de diffusion :</p>
+
+    <a href="https://listes.etalab.gouv.fr/listinfo/piaf" class="text-white btn--red relative inline-flex px-8 py-4 rounded-lg bg-red font-cooper-medium uppercase">
+      <span class="btn-overlay--white"></span>
+      <span class="relative">M'inscrire</span>
+    </a>
+
+    <br><br>
+    <p class="italic">La liste de diffusion n'est utilisée que pour vous envoyer des messages d'infromation à propos du projet Piaf. Vous pourrez vous en désinscrire à tout moment, et cela ne sera aucunement lié au compte que vous vous crérez sur la plateforme quand elle sera disponible.
+    </p>
+
+  </div>
+
+</div>
