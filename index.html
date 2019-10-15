@@ -106,11 +106,11 @@ home_process_elements :
         {% for element in page.home_process_elements %}
           <div class="flex flex-wrap justify-center w-full sm:w-1/3 mb-16 sm:mb-0">
             <a href="{{ element.link }}">
-              <svg class="icon-{{ element.icon }} max-w-full h-24 mb-4">
+              <svg class="icon-{{ element.icon }} max-w-full h-24 mb-4 mx-auto">
                 <use xlink:href="#icon-{{ element.icon }}"></use>
               </svg>
               <p class="font-cooper-medium text-2xl w-full mb-2 sm:mb-6">{{element.title}}</p>
-              <p class="max-w-xs mt-auto mb-0  {% if forloop.first == true %}px-6 {% else %}px-2{% endif%}">{{element.desc}}</p>
+              <p class="max-w-xs mt-auto mb-0 mx-auto {% if forloop.first == true %}px-6 {% else %}px-2{% endif%}">{{element.desc}}</p>
             </a>
           </div>
         {% endfor %}
