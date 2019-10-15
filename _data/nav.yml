@@ -5,12 +5,12 @@
       path: presentation.html
       section_id: presentation
     - name: Annoter des articles
-      path: /candidature-eig.html
-      section_id: candidature-eig
+      path: /contribution.html
+      section_id: contribution
     - name: Proposer un cas d'usage
-      path: /candidature-defi.html
-      section_id: candidature-defi
- 
+      path: /usages.html
+      section_id: usages
+
 - name: Qui sommes-nous
   section_id : communaute
   path: /communaute.html
@@ -21,4 +21,3 @@
 
 - name: Contribuer
   section_id: participer
-  
