@@ -17,7 +17,7 @@ Nous appelons à la participation collective pour constituer un jeu de données 
 ![alt text](img/piano1.png "title")
 
 ## Annotathons
-A partir du 17 octobre, des annotathons auront lieu tous les vendredis de 12h à 14h au 77 avenue de Ségur. Vous souhaitez y participer ? Inscrivez-vous à notre [liste de diffusion](https://listes.etalab.gouv.fr/listinfo/piaf) pour être informé et inscrit.
+A partir du 17 octobre, des annotathons auront lieu tous les vendredis de 12h à 14h. Vous souhaitez y participer ? Inscrivez-vous à notre [liste de diffusion](https://listes.etalab.gouv.fr/listinfo/piaf) pour être informé et inscrit.
 Si vous souhaitez organiser un annotathon au sein de votre organisation, vous pouvez également nous contacter par [mail](mailto:piaf@data.gouv.fr).
 
 ## Charte de contribution
