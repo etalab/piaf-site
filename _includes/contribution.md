@@ -17,13 +17,15 @@ Nous appelons à la participation collective pour constituer un jeu de données 
 ![alt text](img/piano1.png "title")
 
 ## Annotathons
-A partir du 17 octobre, des annotathons auront lieu tous les vendredis de 12h à 14h. Vous souhaitez y participer ? Inscrivez-vous à notre [liste de diffusion](https://listes.etalab.gouv.fr/listinfo/piaf) pour être informé et inscrit.
+A partir du 17 octobre, des annotathons auront lieu tous les vendredis de 12h à 14h. 
+
+**Vous souhaitez y participer ? Inscrivez-vous à notre [liste de diffusion](https://listes.etalab.gouv.fr/listinfo/piaf) pour être informé et inscrit.**
 Si vous souhaitez organiser un annotathon au sein de votre organisation, vous pouvez également nous contacter par [mail](mailto:piaf@data.gouv.fr).
 
 ## Charte de contribution
 Nous souhaitons développer ce projet de manière éthique et ouverte. Pour annoter les articles Wikipédia, nous avons fait le choix d'une posture citoyenne et pédagogique. Nous nous inspirons ainsi de projets contributifs existants, comme [Common Voice](https://voice.mozilla.org) de la fondation Mozilla ou des initiatives de sciences participatives.
 
-**Une démarche citoyenne** : en contribuant volontairement à PIAF, vous améliorez la présence de corpus en français dans le domaine de l'intelligence artificielle. Les données seront ensuite disponibles sous format libre et réutilisables permettant par exemple à des laboratoires d'approfondir certaines de leur recherches ou entre à des administrations d'améliorer des services à destination des usagers.
+**Une démarche citoyenne** : en contribuant volontairement à PIAF, vous améliorez la présence de corpus en français dans le domaine de l'intelligence artificielle. Les données seront ensuite disponibles sous format libre et réutilisables permettant par exemple à des laboratoires d'approfondir certaines de leur recherches ou à des administrations d'améliorer des services à destination des usagers.
 
 **Une visée pédagogique** : l'intelligence artificielle, c'est d'abord de l'humain, et ce n'est pas une fin en soi. A travers ce projet, nous souhaitons également permettre à des profils non techniques de mieux saisir les différentes dimensions de l'intelligence artificielle. Les événements d'annotation que nous organisons seront par exemple l'occasion pour des agents publics, des étudiants, et tout citoyen volontaire de découvrir l'IA par la pratique !
 Nous souhaitons que ce projet initie une réflexion sur la reconnaissance de contributions volontaires à des projets d'intérêt général (certifications, valorisation dans la communauté, etc.). N'hésitez pas à nous contacter si vous souhaitez partager vos idées : [piaf@data.gouv.fr](mailto:piaf@data.gouv.fr).
