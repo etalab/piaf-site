@@ -4,11 +4,18 @@ dropdown_id: demarche
 section_id: presentation
 js_file: presentation
 
-
+key_figures:
+  -
+    amount: 18
+    description: "Octobre 2019"
 ---
 
 <div class="container mx-auto font-cooper-light text-blue">
   <div class="flex flex-wrap sm:flex-no-wrap mb-16">
+    {% for key_figure in page.key_figures %}
+    <div class="w-full sm:w-1/1 flex flex-wrap justify-center">
+      <p class="font-cooper-semi-bold text-6xl min-h-24 countup" data-count="{{ key_figure.amount }}"></p>
+      <p class="w-full text-center">{{ key_figure.description }}</p>
     </div>
     {% endfor %}
   </div>
