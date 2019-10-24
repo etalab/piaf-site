@@ -1,5 +1,8 @@
 ## Pourquoi annoter des articles ?
-Pour entraîner des IA dans une langue spécifique, il est nécessaire disposer de données d'entraînement dans cette langue qui soient suffisamment performantes pour aider la machine à apprendre. Dans le cas des questions-réponses, qui permettent par exemple d'entraîner des chatbots ou des moteurs de recherche, nous se savons pas encore si le fait de disposer de données natives en français est plus performant que des données traduites. 
+
+Pour entraîner des IA dans une langue spécifique, il est nécessaire disposer de données d’entraînement dans cette langue qui soient suffisamment performantes pour aider la machine à apprendre. Avec la mise à disposition de modèles de traduction de plus en plus performants, la création de ces données d'entraînement en français peut se faire également en traduisant automatiquement des données annotées anglophones. **Dans le cas des questions-réponses, qui permettent par exemple d’entraîner des chatbots ou des moteurs de recherche, nous se savons pas encore si le fait de disposer de données natives en français est plus performant que des données traduites**. 
+
+Pour répondre à cette question, il faut disposer de données en français natif pour l'évaluation de modèles existants. Une fois que nous disposons d'un véritable jeu de données d'évaluation francophone, nous pourrons l'utiliser pour mesurer l'apport de données d'entraînement nativement en français. 
 
 **Pour répondre à cette question, nous menons avec PIAF une expérimentation et nous vous proposons d'y participer.** 
 
@@ -7,7 +10,7 @@ Pour entraîner des IA dans une langue spécifique, il est nécessaire disposer 
 
 ## Comment contribuer ?
 
-**Dans un premier temps, l'objectif sera de constituer avec vous le jeu de données d'évaluation de PIAF**, c'est à dire celui qui permettra d'évaluer si les données de questions-réponses nativement en français sont plus performantes que des données traduites d'une autre langue. 
+**Dans un premier temps, l'objectif sera de constituer avec vous le jeu de données d'évaluation de PIAF**, c'est à dire celui qui permettra d'évaluer si les données de questions-réponses en français natif sont plus performantes que des données traduites d'une autre langue. 
 
 Pour cela, nous organisons tous les vendredis, de 12h30 à 14h, des **"annotathons"**, ateliers de présentation hebdmodaires pour présenter le projet et vous guider pas à pas dans la contribution.
 
