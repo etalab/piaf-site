@@ -37,6 +37,9 @@ module.exports = {
       scale: {
         '70': '.7',
         '100': '1'
+      },
+      inset: {
+        '3': '.75rem'
       }
     }
   },

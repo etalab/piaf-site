@@ -41,6 +41,7 @@
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
     "animejs": "^3.1.0",
+    "badger-accordion": "^1.2.3",
     "countup.js": "^2.0.4",
     "file-loader": "^4.2.0",
     "fontfaceobserver": "^2.1.0",
