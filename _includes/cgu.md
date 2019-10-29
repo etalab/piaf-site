@@ -2,25 +2,25 @@
 
 ### Vocabulaire
 
-« Nous » se réfère à l'éditeur du site, la mission Etalab.
+« Nous » se réfère à l'éditeur du site, la mission Etalab de la direction interministérielle du numérique.
 
 « Vous » se réfère à l’utilisateur du site.
 
 ### Présentation du projet
 
-[piaf.etalab.studio](https://piaf.etalab.studio/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab (DINSIC), soutenu par le Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations. Il vise à présenter le projet PIAF (la démarche, les actualités, les partenaires)
+[piaf.etalab.studio](https://piaf.etalab.studio/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab de la direction interministérielle du numérique (DINSIC). Il bénéficie du soutien du Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations. Le site vise à présenter le projet PIAF (la démarche, les actualités, les partenaires)
 
-Le module [piaf.etalab.studio/app](https://piaf.etalab.studio/app) permet l'annotation par des humains de paragraphes issus d'articles de Wikipédia en français afin de générer une base de données ouvertes de 120 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une question et sélectionner la réponse dans le texte
+Le [module d'annotation](https://piaf.etalab.studio/wait) permet l'annotation par des humains de paragraphes issus d'articles de Wikipédia en français afin de générer une base de données ouvertes de 100 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une question et sélectionner la réponse dans le texte
 
 ###  Traitement des données
 
-Lors de votre inscription sur le module d'annotation [piaf.etalab.studio/app](https://piaf.etalab.studio/app), vous saisissez une adresse électronique. Celle-ci est utilisée pour :
+Lors de votre inscription sur le [module d'annotation](https://piaf.etalab.studio/wait), vous saisissez une adresse électronique. Celle-ci est utilisée pour :
 
 * vous permettre d'accéder à l'interface d'annotation ;
 * vous permettre de réinitialiser votre mot de passe ; 
 * nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contributions (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produites seront publiées). 
 
-Vous pouvez aussi saisir votre adresse électronique pour vous inscrire à la liste de diffusion https://listes.etalab.gouv.fr/listinfo/piaf qui vous informe des événements d’annotation
+Vous pouvez aussi saisir votre adresse électronique pour vous inscrire à [la liste de diffusion](https://framaforms.org/edite-piaf-venez-creer-avec-nous-des-ia-francophones-1571693137) qui vous informe des actualités de PIAF et des des événements d’annotation
 
 Conformément aux dispositions de la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous disposez d'un droit d'accès, de modification, de rectification et de suppression des données qui vous concernent. Pour demander une modification, rectification ou suppression des données vous concernant, il vous suffit de nous écrire par voie électronique à [piaf@data.gouv.fr](mailto:piaf@data.gouv.fr) ou postale à Mission Etalab, 20, avenue de Ségur, 75007 Paris en justifiant de votre identité. Si vous estimez, après nous avoir contactés, que vos droits Informatique et Libertés ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL
 
