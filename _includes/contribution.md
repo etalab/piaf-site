@@ -33,7 +33,7 @@ Annoter un extrait d'article Wikipédia signifie pour le projet PIAF de créer d
 
 **4. Validez votre contribution pour cet article et passez à un autre !**
 
-![alt text](img/piaf-texte-annotation.png "title")
+![alt text](img/annotation-piaf-usa.PNG "title")
 
 ## Charte de contribution
 Nous souhaitons développer ce projet de manière éthique et ouverte. Pour annoter les articles Wikipédia, nous avons fait le choix d'une posture citoyenne et pédagogique. Nous nous inspirons ainsi de projets contributifs existants, comme [Common Voice](https://voice.mozilla.org) de la fondation Mozilla ou des initiatives de sciences participatives.
