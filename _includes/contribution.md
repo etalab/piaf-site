@@ -4,7 +4,7 @@ Pour entraîner des IA dans une langue spécifique, il est nécessaire disposer 
 
 Pour répondre à cette question, il faut disposer de données en français natif pour l'évaluation de modèles existants. Une fois que nous disposons d'un véritable jeu de données d'évaluation francophone, nous pourrons l'utiliser pour mesurer l'apport de données d'entraînement nativement en français. 
 
-**Pour répondre à cette question, nous menons avec PIAF une expérimentation et nous vous proposons d'y participer.** 
+**PIAF est le projet qui explore cette question scientifique, et nous vous proposons d'y participer.** 
 
 **Le défi est le suivant** : en quelques mois, nous avons pour objectif de créer plus de 100 000 questions-réponses sur la base d'extraits d'articles Wikipédia en français. Nous avons fait un premier calcul : pour générer 20 000 questions-réponses, ce qui correspond à un premier fragment dont nous analyserons les performances, il est nécessaire de mobiliser 400 heures d'annotation. Si 500 personnes contribuent individuellement environ 45 minutes à l'annotation, nous atteindrons ce premier palier !
 
