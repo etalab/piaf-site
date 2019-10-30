@@ -4,6 +4,7 @@
 
 @tailwind utilities;
 
+/* purgecss start ignore */
 /* Fonts */
 
 @font-face {
@@ -389,10 +390,10 @@
   max-height: 75vh;
   overflow: hidden;
   box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, .3);
-}
 
-.badger-accordion__panel.-ba-is-hidden {
-  max-height: 1px !important;
+  &.is-hidden {
+    max-height: 1px !important;
+  }
 }
 
 .badger-accordion--initialized .badger-accordion__panel {
@@ -450,3 +451,4 @@
     display: inline;
   }
 }
+/* purgecss end ignore */

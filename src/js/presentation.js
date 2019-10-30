@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const BadgerAccordion = require('badger-accordion');
   const accordionDomNode = document.querySelector('.js-badger-accordion');
 
-  const accordion = new BadgerAccordion.default(accordionDomNode);
-
+  const accordion = new BadgerAccordion.default(accordionDomNode, {
+    openHeadersOnLoad: [0],
+    hiddenClass: 'is-hidden'
+  });
 });

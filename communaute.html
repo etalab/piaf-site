@@ -64,8 +64,8 @@ section_id: communaute
   <div class="flex items-center mx-24 my-20">
     <div class="text-2xl font-cooper-medium mr-12">Ils participent au projet PIAF</div>
     {% for partenaire in site.data.partenaires %}
-      <div class="flex flex-shrink-0 px-12 max-w-xsm max-h-xxs">
-        <a href="{{ partenaire.url }}" target="_new"><img src="{{ partenaire.src }}" /></a>
+      <div class="relative flex flex-shrink-0 px-12 max-w-xsm">
+        <a href="{{ partenaire.url }}" target="_new"><img class="" src="{{ partenaire.src }}" /></a>
       </div>
     {% endfor %}
   </div>
