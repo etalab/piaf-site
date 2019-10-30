@@ -6,6 +6,12 @@ section_id: actualites
 <div class="container mx-auto font-cooper-light text-blue"> 
   <div class="w-full sm:w-2/3 px-6 sm:px-0  mx-auto">
     <h1 class="text-4xl mb-6">Les actualités et ressources de PIAF</h1>
-    <p>Pas encore d'actualités.</p>
+    <ul class="small-block-grid-1 large-block-grid-2 mt-2">
+    {% for post in paginator.posts %}
+      <li style="padding: 0 .3em">
+        {% include post_card.html %}
+      </li>
+    {% endfor %}
+    </ul>
   </div>
 </div>
