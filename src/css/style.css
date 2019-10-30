@@ -202,7 +202,7 @@
   }
 }
 
-.home-top__gradient-front {
+.top__gradient-front {
   width: 100%;
 }
 
@@ -397,4 +397,56 @@
 
 .badger-accordion--initialized .badger-accordion__panel {
   transition: all ease-in-out 0.2s;
+}
+
+.list-el--red-disc {
+  margin: 1rem 0;
+
+  &::before {
+    content: '';
+    background-color: theme(colors.red);
+    display: inline-flex;
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+    margin-right: .8rem;
+    margin-top: .8rem;
+    flex-shrink: 0;
+  }
+}
+
+.list-el--white-disc {
+  @extend .list-el--red-disc;
+
+  &::before {
+    background-color: theme(colors.white);
+  }
+}
+
+/* Communaute styles */
+
+.community-top {
+  @extend .home-top;
+  height: 90vh;
+}
+
+.quote {
+  &::before {
+    content: '“';
+    position: absolute;
+    top: .5rem;
+    left: 0;
+    font-size: theme(fontSize.7xl);
+    display: inline;
+    line-height: 0;
+    margin-top: 1.5rem;
+  }
+  &::after {
+    content: '”';
+    position: absolute;
+    bottom: .5rem;
+    line-height: 0;
+    font-size: theme(fontSize.7xl);
+    display: inline;
+  }
 }

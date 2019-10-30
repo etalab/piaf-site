@@ -7,7 +7,9 @@ module.exports = {
       colors: {
         'red': '#e31e3f',
         'blue': '#0d1b3f',
-        'blue-dark': '#100a32'
+        'blue-dark': '#100a32',
+        'purple': '#0f0a3a',
+        'purple-light': '#391d81'
       },
       fontFamily: {
         'cooper-light': ['cooper_hewittlight', 'sans-serif'],
@@ -20,13 +22,24 @@ module.exports = {
         '-6': '-1.5rem',
         '-1/3': '-33.3333%',
         '-1/2': '-50%',
+        '3': '.75rem',
         '40': '10rem',
         '48': '12rem',
         '64': '16rem',
-        '-1/2vw': '-25vw'
+        '-1/2vw': '-25vw',
+        '-15vh': '-15vh',
+        '-40vh': '-40vh'
+      },
+      fontSize: {
+        '2/5xl': '1.6875rem',
+        '7xl': '5rem'
       },
       maxWidth: {
-        xxs: '10rem'
+        xxs: '10rem',
+        'xsm': '15rem',
+      },
+      maxHeight: {
+        xxs: '6rem',
       },
       backgroundPosition: {
         full: '100%'
@@ -38,8 +51,8 @@ module.exports = {
         '70': '.7',
         '100': '1'
       },
-      inset: {
-        '3': '.75rem'
+      width: {
+
       }
     }
   },

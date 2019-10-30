@@ -23,10 +23,10 @@ clipped_img: clipped-img.png
 
 <div class="presentation-top overflow-hidden relative font-cooper-light flex flex-col py-10 sm:py-0 justify-center align-items text-white">
   <div class="svg-container absolute left-0 bottom-0 z-10 hidden sm:block">
-    <svg class="presentation-top__gradient-back absolute left-0 bottom-0" viewBox="0 0 1412 692">
+    <svg class="top__gradient-back absolute left-0 -bottom-40vh" viewBox="0 0 1412 692">
       <path fill-rule="evenodd" transform="translate(-10, 70) scale(1.05)" opacity="0.059" fill="rgb(255, 255, 255)" d="M4,8 C4,8 224,-33 468,68 C711,171 868,270 1155,248 C1270,238 1411,165 1412,165 L1412,692 L0,692 L4,8 Z"/>
     </svg>
-    <svg class="presentation-top__gradient-front absolute left-0 bottom-0 z-20" viewBox="0 0 1415 623">
+    <svg class="top__gradient-front absolute left-0 -bottom-40vh z-20" viewBox="0 0 1415 623">
       <defs>
         <linearGradient id="PSgrad_0" x1="0%" x2="71.934%" y1="0%" y2="69.466%" gradientTransform="rotate(44)">
           <stop offset="0%" stop-color="rgb(14,7,54)" stop-opacity="1" />
@@ -39,7 +39,7 @@ clipped_img: clipped-img.png
     </svg>
   </div>
   <div class="container relative z-40 mx-auto font-cooper-light text-white mt-auto mb-0 pb-10"> 
-    <div class="text-center text-4xl mb-10">PIAF c'est...</div>
+    <h1 class="text-center text-4xl mb-10">PIAF c'est...</h1>
     <div class="flex flex-wrap sm:flex-no-wrap mb-16 px-24">
       {% for key_figure in page.key_figures %}
       <div class="w-full sm:w-1/4 flex flex-wrap justify-center">
@@ -54,9 +54,9 @@ clipped_img: clipped-img.png
 <div class="relative pt-16"> 
   <div class="home-center__masked-img absolute w-3/5 left-0 h-screen bg-countain bg-no-repeat bg-left-top bottom-0 hidden sm:block" style="background-image: url('/img/{{ page.clipped_img }}');"></div>
   <div class="relative container mx-auto pl-24 font-cooper-light"> 
-    <h2 class="text-2xl mb-6 font-cooper-medium text-blue">PIAF, construire un jeu de données francophones ouvert pour l’IA</h2>
+    <h2 class="text-2xl mb-8 font-cooper-medium text-blue">PIAF, construire un jeu de données francophones ouvert pour l’IA</h2>
 
-    <div class="flex">
+    <div class="flex flex-wrap">
       <div class="w-1/2 pr-16 text-blue">
         <p>
           Le recours à l’intelligence artificielle au sein de l’action publique est souvent identifié comme une opportunité pour interroger des textes documentaires et réaliser des outils de questions/réponses automatiques à destination des usagers. Interroger le code du travail en langage naturel, mettre à disposition un agent conversationnel pour un service donné, développer des moteurs de recherche performants, améliorer la gestion des connaissances, autant d’activités qui nécessitent de disposer de corpus de données d’entraînement de qualité afin de développer des algorithmes de questions/réponses.
@@ -64,8 +64,8 @@ clipped_img: clipped-img.png
           Aujourd’hui, il n’existe pas de jeux de données d’entraînement francophones publics et ouverts qui permettraient d’entraîner ces algorithmes.
         </p>
       </div>
-      <div class="w-5/12 p-10 rounded-lg bg-red text-white">
-        <h2 class="text-2xl font-cooper-medium mb-8">L’ambition du projet PIAF est de construire ce(s) jeu(x) de données francophones pour l’IA de manière ouverte et contributive</h2>
+      <div class="w-5/12 p-8 rounded-lg bg-red text-white">
+        <h2 class="text-2/5xl font-cooper-medium mb-8">L’ambition du projet PIAF est de construire ce(s) jeu(x) de données francophones pour l’IA de manière ouverte et contributive</h2>
         <dl class="js-badger-accordion text-lg">
           <dt class="my-4">
             <div class="relative js-badger-accordion-header cursor-pointer font-cooper-medium pr-4">
@@ -102,22 +102,19 @@ clipped_img: clipped-img.png
           </dd>
         </dl>
       </div>
-    </div>
-    
-      
-      <h2 class="text-2xl mb-6 mt-8">PIAF - Pour des IA francophones -, un outil mutualisé du Lab IA</h2>
-      
-      <p class="mb-6">En mars 2018, la France a lancé sa stratégie nationale pour l’intelligence artificielle. Pilotée au sein de la Direction interministérielle du numérique, cette stratégie comprend trois volets : la recherche, l’économie et la transformation publique.</p>
-            
-      <p class="mb-6">La politique de la donnée étant un axe majeur du développement de l’intelligence artificielle, la mission Etalab pilote la mise en place d’un “Lab IA” interministériel, dont la mission est d’accélérer le déploiement de l’IA dans les administrations via 3 activités principales :<p>
-      
-      <div class="flex flex-wrap sm:flex-no-wrap">
-        <p class="w-full sm:w-1/3">Constituer une équipe coeur afin d’internaliser des compétences et de l’expertise autour de l’IA</p>
-        <p class="w-full my-2 sm:my-0 sm:w-1/3 sm:px-6">Accompagner des projets d’IA dans les administrations, par l’intermédiaire d’appels à manifestations d’intérêts</p>
-        <p class="w-full sm:w-1/3"><strong class="font-cooper-medium">Co-construire des outils mutualisés pouvant être utilisés de la manière la plus ouverte possible</strong></p>
+      <div class="w-1/2"></div>
+      <div class="w-5/12 mt-12 text-blue">
+        <h2 class="text-2xl mb-6 font-cooper-medium text-blue">PIAF - Pour des IA francophones -, un outil mutualisé du Lab IA</h2>
+        <p class="mb-6">En mars 2018, la France a lancé sa stratégie nationale pour l’intelligence artificielle. Pilotée au sein de la Direction interministérielle du numérique, cette stratégie comprend trois volets : la recherche, l’économie et la transformation publique.</p>      
+        <p class="mb-6">La politique de la donnée étant un axe majeur du développement de l’intelligence artificielle, la mission Etalab pilote la mise en place d’un “Lab IA” interministériel, dont la mission est d’accélérer le déploiement de l’IA dans les administrations via 3 activités principales :<p>
+        <ul>
+          <li class="flex list-el--red-disc">Constituer une équipe coeur afin d’internaliser des compétences et de l’expertise autour de l’IA</li>
+          <li class="flex list-el--red-disc">Accompagner des projets d’IA dans les administrations, par l’intermédiaire d’appels à manifestations d’intérêts</li>
+          <li class="flex list-el--red-disc">Co-construire des outils mutualisés pouvant être utilisés de la manière la plus ouverte possible</li>
+        </ul>
+        <p class="my-6">Le projet PIAF est l'un des outils mutualisés du Lab IA.</p>
+        <p class="italic">Le projet PIAF est porté par <a class="text-red text-link" target="new" href="https://www.etalab.gouv.fr/qui-sommes-nous">Etalab</a> et bénéficie du financement du Programme d'investissements d'avenir, piloté par le <a class="text-red text-link" target="new" href="https://www.gouvernement.fr/le-secretariat-general-pour-l-investissement">Secrétariat général pour l'investissement</a> et la <a class="text-red text-link" target="new" href="https://www.caissedesdepots.fr/">Caisse des dépôts et consignations</a>.</p>
       </div>
-      <p class="my-6">Le projet PIAF est l'un des outils mutualisés du Lab IA.</p>
-      <p class="italic">Le projet PIAF est porté par <a class="text-red text-link" target="new" href="https://www.etalab.gouv.fr/qui-sommes-nous">Etalab</a> et bénéficie du financement du Programme d'investissements d'avenir, piloté par le <a class="text-red text-link" target="new" href="https://www.gouvernement.fr/le-secretariat-general-pour-l-investissement">Secrétariat général pour l'investissement</a> et la <a class="text-red text-link" target="new" href="https://www.caissedesdepots.fr/">Caisse des dépôts et consignations</a>.</p>
     </div>
 
   </div>
