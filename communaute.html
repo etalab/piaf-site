@@ -62,10 +62,10 @@ section_id: communaute
     <div class="text-lg">Contactez nous par courriel <a class="text-white text-link" href="mailto:piaf@data.gouv.fr"> piaf@data.gouv.fr </a> ou contribuez sur Github.</div>
   </div>
   <div class="flex items-center mx-24 my-20">
-    <div class="text-2xl font-cooper-medium mr-12">Ils participent au projet PIAF</div>
+    <div class="text-2xl font-cooper-medium mr-6">Ils participent au projet PIAF</div>
     {% for partenaire in site.data.partenaires %}
-      <div class="relative flex flex-shrink-0 px-12 max-w-xsm">
-        <a href="{{ partenaire.url }}" target="_new"><img class="" src="{{ partenaire.src }}" /></a>
+      <div class="relative flex flex-shrink-0 px-12">
+        <a href="{{ partenaire.url }}" target="_new"><img width="{{ partenaire.width }}" src="{{ partenaire.src }}" /></a>
       </div>
     {% endfor %}
   </div>

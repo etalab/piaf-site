@@ -40,7 +40,7 @@ clipped_img: clipped-img.png
   </div>
   <div class="container relative z-40 mx-auto font-cooper-light text-white mt-24"> 
     <h1 class="text-center text-4xl mb-10">PIAF c'est...</h1>
-    <div class="flex flex-wrap sm:flex-no-wrap mb-16 px-24">
+    <div class="flex flex-wrap sm:flex-no-wrap mb-16 xl:px-24">
       {% for key_figure in page.key_figures %}
       <div class="w-full sm:w-1/4 flex flex-wrap justify-center">
         <p class="font-cooper-medium w-full text-center text-3xl min-h-24 countup" data-count="{{ key_figure.amount }}"></p>
@@ -53,18 +53,18 @@ clipped_img: clipped-img.png
 
 <div class="relative pt-16"> 
   <div class="home-center__masked-img absolute w-3/5 left-0 h-screen bg-countain bg-no-repeat bg-left-top bottom-0 hidden sm:block" style="background-image: url('/img/{{ page.clipped_img }}');"></div>
-  <div class="relative container mx-auto pl-24 font-cooper-light"> 
+  <div class="relative container mx-auto px-6 sm:px-0 sm:pl-24 font-cooper-light"> 
     <h2 class="text-2xl mb-8 font-cooper-medium text-blue">PIAF, construire un jeu de données francophones ouvert pour l’IA</h2>
 
     <div class="flex flex-wrap">
-      <div class="w-1/2 pr-16 text-blue">
+      <div class="w-full sm:w-1/2 pr-16 text-blue">
         <p>
           Le recours à l’intelligence artificielle au sein de l’action publique est souvent identifié comme une opportunité pour interroger des textes documentaires et réaliser des outils de questions/réponses automatiques à destination des usagers. Interroger le code du travail en langage naturel, mettre à disposition un agent conversationnel pour un service donné, développer des moteurs de recherche performants, améliorer la gestion des connaissances, autant d’activités qui nécessitent de disposer de corpus de données d’entraînement de qualité afin de développer des algorithmes de questions/réponses.
           <br><br>
           Aujourd’hui, il n’existe pas de jeux de données d’entraînement francophones publics et ouverts qui permettraient d’entraîner ces algorithmes.
         </p>
       </div>
-      <div class="w-5/12 p-8 rounded-lg bg-red text-white">
+      <div class="w-full mt-12 sm:mt-0 sm:w-5/12 p-8 rounded-lg bg-red text-white">
         <h2 class="text-2/5xl font-cooper-medium mb-8">L’ambition du projet PIAF est de construire ce(s) jeu(x) de données francophones pour l’IA de manière ouverte et contributive</h2>
         <dl class="js-badger-accordion text-lg">
           <dt class="my-4">
@@ -103,7 +103,7 @@ clipped_img: clipped-img.png
         </dl>
       </div>
       <div class="w-1/2"></div>
-      <div class="w-5/12 mt-12 text-blue">
+      <div class="w-full sm:w-5/12 mt-12 text-blue">
         <h2 class="text-2xl mb-6 font-cooper-medium text-blue">PIAF - Pour des IA francophones -, un outil mutualisé du Lab IA</h2>
         <p class="mb-6">En mars 2018, la France a lancé sa stratégie nationale pour l’intelligence artificielle. Pilotée au sein de la Direction interministérielle du numérique, cette stratégie comprend trois volets : la recherche, l’économie et la transformation publique.</p>      
         <p class="mb-6">La politique de la donnée étant un axe majeur du développement de l’intelligence artificielle, la mission Etalab pilote la mise en place d’un “Lab IA” interministériel, dont la mission est d’accélérer le déploiement de l’IA dans les administrations via 3 activités principales :<p>

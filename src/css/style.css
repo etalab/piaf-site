@@ -41,6 +41,21 @@
   height: 3rem;
   transition: height 0.3s;
 
+  > .container {
+    @media (min-width: 640px) {
+      max-width: 100%;
+    }
+    @media (min-width: 768px) {
+      max-width: 100%;
+    }
+    @media (min-width: 1024px) {
+      max-width: 100%;
+    }
+    @media (min-width: 1280px) {
+      max-width: 1280px;
+    }
+  }
+
   @media (min-width: 640px) {
     height: 6rem;
   }
@@ -375,7 +390,11 @@
 
 .presentation-top {
   @extend .home-top;
-  height: 60vh;
+  
+
+  @media (min-width: 640px) {
+    height: 60vh;
+  }
 }
 
 .presentation-top__gradient-back, .presentation-top__gradient-front {
