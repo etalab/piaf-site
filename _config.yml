@@ -12,3 +12,5 @@ exclude:
   - README.md
   - src
   - tailwind.config.js
+
+paginate_path: "/actualites/page:num/"
