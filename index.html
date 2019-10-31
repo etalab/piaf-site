@@ -60,7 +60,7 @@ home_process_elements :
 
     <div class="flex flex-wrap sm:mt-10 justify-center space-around">
       {% for highlight in page.home_top_highlights %}
-        <div class="home-top__highlight relative w-full sm:w-64 h-64 inline-flex flex-wrap content-center items-center justify-center {% if forloop.last == true %} sm:ml-24 {% endif %}">
+        <div class="home-top__highlight relative flex-col w-full sm:w-64 h-64 inline-flex flex-wrap content-center items-center justify-center {% if forloop.last == true %} md:ml-24 {% endif %}">
           <svg class="icon-{{ highlight.icon }} max-w-full h-12 mb-4">
             <use xlink:href="#icon-{{ highlight.icon }}"></use>
           </svg>

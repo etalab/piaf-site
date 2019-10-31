@@ -42,6 +42,8 @@
   transition: height 0.3s;
 
   > .container {
+    transition: height 0.3s;
+
     @media (min-width: 640px) {
       max-width: 100%;
     }
@@ -447,7 +449,10 @@
 
 .community-top {
   @extend .home-top;
-  height: 90vh;
+
+  @media (min-width: 1024px) {
+    height: 90vh;
+  }
 }
 
 .quote {
