@@ -115,6 +115,23 @@
   }
 }
 
+
+.text-link--white {
+  text-decoration: none;
+  background-image: linear-gradient(#fff, #fff);
+  background-position-y: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  transition: background-position-x .3s .3s, background-size .3s;
+
+  &:hover {
+    background-position-x: left;
+    background-size: 0 1px;
+  }
+
+}
+
 /* Button style */
 %btn {
   overflow: hidden;
