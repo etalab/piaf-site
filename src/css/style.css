@@ -466,10 +466,6 @@
 
 .community-top {
   @extend .home-top;
-
-  @media (min-width: 1024px) {
-    height: 90vh;
-  }
 }
 
 .quote {
