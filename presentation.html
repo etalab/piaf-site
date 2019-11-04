@@ -21,7 +21,7 @@ key_figures:
 clipped_img: clipped-img.png
 ---
 
-<div class="presentation-top overflow-hidden relative font-cooper-light flex flex-col py-10 sm:py-0 justify-center align-items text-white">
+<div class="presentation-top overflow-hidden relative font-cooper-light flex flex-col py-10 sm:py-0 -my-20 sm:-my-40 justify-center align-items text-white">
   <div class="svg-container absolute left-0 bottom-0 z-10 hidden sm:block">
     <svg class="top__gradient-back absolute left-0 -bottom-10vh lg:-bottom-40vh" viewBox="0 0 1412 692">
       <path fill-rule="evenodd" transform="translate(-10, 70) scale(1.05)" opacity="0.059" fill="rgb(255, 255, 255)" d="M4,8 C4,8 224,-33 468,68 C711,171 868,270 1155,248 C1270,238 1411,165 1412,165 L1412,692 L0,692 L4,8 Z"/>
@@ -42,8 +42,8 @@ clipped_img: clipped-img.png
     <h1 class="text-center text-4xl mb-10">PIAF c'est...</h1>
     <div class="flex flex-wrap sm:flex-no-wrap mb-16 xl:px-24">
       {% for key_figure in page.key_figures %}
-      <div class="w-full sm:w-1/4 flex flex-wrap justify-center">
-        <p class="font-cooper-medium w-full text-center text-3xl min-h-24 countup" data-count="{{ key_figure.amount }}"></p>
+      <div class="w-full mb-6 sm:mb-0 sm:w-1/4 flex flex-wrap justify-center">
+        <p class="font-cooper-medium w-full text-center text-3xl countup" data-count="{{ key_figure.amount }}"></p>
         <p class="w-2/3 text-center">{{ key_figure.description }}</p>
       </div>
       {% endfor %}
@@ -51,7 +51,7 @@ clipped_img: clipped-img.png
   </div>
 </div>
 
-<div class="relative pt-16"> 
+<div class="relative pt-16 my-20 sm:my-40"> 
   <div class="home-center__masked-img absolute w-3/5 left-0 h-screen bg-countain bg-no-repeat bg-left-top bottom-0 hidden lg:block" style="background-image: url('/img/{{ page.clipped_img }}');"></div>
   <div class="relative container mx-auto px-6 xl:px-0 xl:pl-24 font-cooper-light"> 
     <h2 class="text-2xl mb-8 font-cooper-medium text-blue">PIAF, construire un jeu de données francophones ouvert pour l’IA</h2>

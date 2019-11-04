@@ -46,15 +46,13 @@ module.exports = {
         full: '100%'
       },
       minHeight: {
-        'min-h-24': '6rem'
+        '24': '6rem',
+        '3/4': '75vh'
       },
       scale: {
         '70': '.7',
         '100': '1'
       },
-      width: {
-
-      }
     }
   },
   variants: {
