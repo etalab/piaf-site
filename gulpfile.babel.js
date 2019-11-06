@@ -59,7 +59,7 @@ task("processStyles", done => {
       gulpif(
         !devBuild,
         new purgecss({
-          content: ["_site/**/*.html"],
+          content: ["**/*.html"],
           whitelist: ['is-active', 'shrink'],
           extractors: [
             {

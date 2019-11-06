@@ -1,5 +1,14 @@
 - name: recital
-  src: img/recital.png
+  src: img/logo-recital.png
+  url: https://recital.ai/
+  width: 168
   
-- name: Common voice
-  src: img/recital.png
+- name: DITP
+  src: img/logo-DITP.png
+  url: https://www.modernisation.gouv.fr/
+  width: 210
+
+- name: Investir l'avenir
+  src: img/logo-investirlavenir.png
+  url: https://www.gouvernement.fr/le-programme-d-investissements-d-avenir 
+  width: 100
