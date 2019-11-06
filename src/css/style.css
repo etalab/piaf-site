@@ -251,10 +251,6 @@
   }
 }
 
-.home-center__masked-img {
-  clip-path: url(#clipping);
-}
-
 
 /* Banner */
 
@@ -418,6 +414,16 @@
 
 .presentation-top__gradient-back, .presentation-top__gradient-front {
   bottom: -40vh;
+}
+
+.pres-center__masked-img {
+  transform-origin: left center;
+  transform: scale(.7);
+  width: 65%;
+
+  @media (min-width: 1280px) {
+    transform: scale(1);
+  }
 }
 
 .clipped-img {

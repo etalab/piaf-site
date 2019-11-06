@@ -82,13 +82,13 @@ home_process_elements :
 </div>
 
 <div class="home-center relative px-6 sm:px-0">
-  <div class="home-center__masked-img absolute w-3/5 h-screen bg-countain bg-no-repeat bg-left-top top-40 hidden sm:block" style="background-image: url('/img/{{ page.home_help_img }}');"></div>
+  <div class="home-center__masked-img absolute w-3/5 h-screen bg-countain bg-no-repeat bg-left-top top-40 hidden lg:block" style="background-image: url('/img/{{ page.home_help_img }}');"></div>
   <div class="container font-cooper-light text-blue relative mx-auto text-center mt-16 z-10">
     <h1 class="text-4xl">{{ page.home_help_title }}</h1>
     <p class="text-xl mt-6">{{ page.home_help_desc }}</p>
-    <div class="relative flex flex-wrap justify-end my-16 sm:my-32">
+    <div class="relative flex flex-wrap justify-end my-16 lg:my-32">
       {% for element in page.home_help_elements %}
-        <div class="w-full first:mb-6 sm:first:mb-0 sm:w-1/3 sm:px-24 flex flex-wrap">
+        <div class="w-full first:mb-6 md:w-1/2 lg:w-1/3 lg:px-12 flex justify-center flex-wrap">
           <p class="font-cooper-medium w-full text-2xl mt-0 sm:mb-6">{{element.title}}</p>
           <p class="mt-auto mb-0">{{element.desc}}</p>
         </div>
