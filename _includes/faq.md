@@ -53,6 +53,7 @@ Les risques de biais sont multipes. Nous avons 2 exigences principales pour réd
 * **la qualité** : il est important de disposer d'ensemble de questions-réponses assez complexes sur un texte. C'est pour cela que nous formons les contributeurs et analysons régulièrement la qualité des données collectées.
 
 ### Annotation / Questions-réponses
+_Rel Benjamin_
 
 #### Pourquoi est-il nécessaire de se créer un compte avant d'annoter ?
 
