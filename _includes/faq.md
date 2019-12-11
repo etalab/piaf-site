@@ -26,8 +26,17 @@ Afin de disposer d'une diversité d'articles (thèmes et types de rédaction), n
 Cette démarche est documentée dans [le protocole (section 7.1)](https://piaf.etalab.studio/img/fr_protocol.pdf).
 
 #### Quels sont les chiffres clés sur le jeu de données à annoter ?
-_Guillaume_
-Mentionner : le nombre d'extraits / la distribution des extraits par thème.
+
+Nous parlons du chiffre 100 000 pour simplifier le nombre de questions-réponses attendus. Pour être précis, il s'agira de collecter 87 230 questions-réponses. Pourquoi ce chiffre ? Ceci est du à la sélection technique des paragraphes wikipédia (pour aller plus loin, nous avons expliqué cette selection dans le protocole).
+
+Ces 87 230 questions-réponses vont être produites à partir de 17 446 paragraphes (5 questions-réponses par paragraphe), eux-mêmes issus de 1446 articles wikipédia. Pour rendre plus sympatique l'annotation, nous avons manuellement créé des thèmes. Voici la distribution des articles par thème :
+Arts : 280
+Geography : 207
+History : 290
+Religion : 101
+Sciences : 242
+Society/Misc. : 203
+Sport : 123
 
 #### Peut-on accéder à toutes les données sources ?
 _Guillaume_ : une fois le travail de Rachel réalisé, on pourra donner la méthodo pour retrouver les données sources.
@@ -42,9 +51,11 @@ Il s'agit de trois sous-domaiens du jeu de données de questions-réponses final
 * **Test** (10% des articles sources) + **Evaluation** (10% des articles sources) = **Développement** : données qui doivent être de qualité, qui permettront d'évaluer la qualité de la démarche et à des modèles existants d'évaluer leur performance.
 * **Entraînement** (80% des articles sources) : données moins robustes en qualité, qui correspondent aux 80 000 questions-réponses qui permettront d'entraîner des algorithmes pour des applications diverses.
 
-#### Quels modèles peut-on entraîner sur la base de données collectée ?
+#### Quels modèles peut-on entraîner sur la base de données collectées ?
 
-_Guillaume_
+Les données collectées peuvent être utilisé comme vous le souhaitez à condition de respecter la licence CC-by-SA.   
+  
+En pratique vous pouvez entrainer vos propres modèles, mais également des modèles disponibles sur internet.
 
 #### Quels sont les risques d'introduction de biais dans la démarche ?
 
