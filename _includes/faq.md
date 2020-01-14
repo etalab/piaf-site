@@ -1,7 +1,7 @@
 ## Foire aux questions
 
 ### Usages
-_Julien_
+_Faire un résumé : Julien_
 
 #### A quoi sert un jeu de données de questions-réponses en français ?
 (répondre sur la question IA entraîtnement)
@@ -38,9 +38,6 @@ Sciences : 242
 Society/Misc. : 203
 Sport : 123
 
-#### Peut-on accéder à toutes les données sources ?
-_Guillaume_ : une fois le travail de Rachel réalisé, on pourra donner la méthodo pour retrouver les données sources.
-
 #### Sous quelle licence les données annotées seront publiées ? Et à quelle fréquence ?
 
 Les données d'entraînement de PIAF seront publiées en licence CC by SA. Comme le mentionne nos [Conditions générales d'utilisation](https://piaf.etalab.studio/cgu.html), pour des questions d'évaluation scientifique, une partie de données (10%) ne sera pas rendue publique. Cette partie permettra d'élaborer un "leader board" pour que des acteurs puisse comparer la performance de leurs modèles entraînés sur PIAF.
@@ -62,6 +59,12 @@ En pratique vous pouvez entrainer vos propres modèles, mais également des mod�
 Les risques de biais sont multipes. Nous avons 2 exigences principales pour réduire l'impact des biais :   
 * **la diversité** : si les données issues de la collecte ont été produites par un trop petit nombre d'annotateurs, ou une catégorie unique de francophones, il est possible que les données de questions-réponses n'embrassent pas la diversité de la langue française ; 
 * **la qualité** : il est important de disposer d'ensemble de questions-réponses assez complexes sur un texte. C'est pour cela que nous formons les contributeurs et analysons régulièrement la qualité des données collectées.
+
+#### Comment s'assurer de la qualité de la base de données ?
+
+Pour avoir des IA de qualité, nous avons besoin de nous assurer de la qualité des contributions à la base de données. Deux axes :
+* Eviter les contributions malveillantes
+* Vérifier le niveau de compréhension de la tâche avec des indicateurs statistiques 
 
 ### Annotation / Questions-réponses
 _Rel Benjamin_
