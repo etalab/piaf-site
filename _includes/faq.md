@@ -41,7 +41,7 @@ Sport : 123
 
 #### Sous quelle licence les données annotées seront publiées ? Et à quelle fréquence ?
 
-Les données d'entraînement de PIAF seront publiées en licence CC-by-SA. Comme le mentionne nos [conditions générales d'utilisation](https://piaf.etalab.studio/cgu.html), pour des questions d'évaluation scientifique, une partie de données (10%) ne sera pas rendue publique. Cette partie permettra d'élaborer un "leader board" pour que des acteurs puisse comparer la performance de leurs modèles entraînés sur PIAF.
+Les données d'entraînement de PIAF seront publiées en licence CC-by-SA. Comme le mentionnent nos [conditions générales d'utilisation](https://piaf.etalab.studio/cgu.html), pour des questions d'évaluation scientifique, une partie de données (10%) ne sera pas rendue publique. Cette partie permettra d'élaborer un "leader board" pour que des acteurs puisse comparer la performance de leurs modèles entraînés sur PIAF.
 
 #### A quoi correspondent les différentes données (test, évaluation, entraînement) collectées ?
 
