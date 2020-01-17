@@ -53,7 +53,7 @@
             </li>
           {% else %}
             <li class="{% if forloop.last == true %} ml-4 lg:ml-10 {% else %}mx-4 lg:mx-10{% endif %}" role="menuitem">
-              <a href="{% if forloop.last == true %}https://piaf.etalab.studio/wait{%else%}{{ item.path }}{%endif%}" class="{{active_class}} relative inline-flex uppercase {% if forloop.last == true %}btn--white text-red rounded -ml-4 lg:-ml-6 border border-red px-4 lg:px-6 py-2{% else %}text-blue text-link{% endif %}">
+              <a href="{{ item.path }}" class="{{active_class}} relative inline-flex uppercase {% if forloop.last == true %}btn--white text-red rounded -ml-4 lg:-ml-6 border border-red px-4 lg:px-6 py-2{% else %}text-blue text-link{% endif %}">
                 {% if forloop.last == true %}<span class="btn-overlay--red"></span>{% endif %}
                 <span class="relative">{{ item.name }}</span>
               </a>
