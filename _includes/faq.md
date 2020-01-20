@@ -67,7 +67,6 @@ Pour avoir des IA de qualité, nous avons besoin de nous assurer de la qualité 
 * Vérifier le niveau de compréhension de la tâche avec des indicateurs statistiques 
 
 ### Annotation / Questions-réponses
-_Rel Benjamin_
 
 #### Pourquoi est-il nécessaire de se créer un compte avant d'annoter ?
 
@@ -83,7 +82,7 @@ Ce choix du volontariat s'inscrit aussi dans les valeurs de pédagogie d'Etalab.
 
 #### Est-ce grave de faire des erreurs d’orthographe en posant des questions ?
 
-Vous pouvez faire des erreurs d'orthographes lorsque vous posez des questions. Premièrement, lors de l'analyse, nous pourrons facilement corriger des petites erreurs. Deuxièment, PIAF vise à entrainer l'IA à comprendre notre langage et, soyons honnètes, dans notre quotidien, les fautes arrivent ! 
+Vous pouvez faire des erreurs d'orthographes lorsque vous posez des questions. Premièrement, lors de l'analyse, nous pourrons facilement corriger des petites erreurs. Deuxièment, PIAF entraine l'IA à comprendre notre langage et, soyons honnètes, dans notre quotidien, les fautes arrivent ! 
 
 Par ailleurs, vous pouvez également poser des questions dont la réponse dans le texte n'est pas 100% cohérente en termes de syntaxe. Par exemple, cette paire est tout à fait possible : 
 * Question : quelle langue était parlée dans la région de l'Acadie ?
@@ -95,7 +94,7 @@ L'enjeu principal est le suivant : il faut formuler une question dont la répons
 
 Quelques conseils pour vous guider : 
 * Poser des questions qui ne reprennent pas les mots exacts du texte : paraphraser, c'est la clef
-* Ne pas poser une question équivoque c'est à dire qui peut avoir plusieurs réponses différentes situées à différents du textes.
+* Ne pas poser une question équivoque c'est à dire qui peut avoir plusieurs réponses différentes situées à différents du texte.
 * Faire simple et court : plus la réponse à votre question est courte, mieux c'est
 * Ne pas hésiter à poser des questions *comment*, *pourquoi* : le but, c'est d'apprendre à des robots à comprendre le français
 * Lorsque vous êtes coincés : n'hésitez pas à "annoter à l'envers" : choisissez un extrait dans le texte et posez votre question dessus 
@@ -103,7 +102,7 @@ Quelques conseils pour vous guider :
 #### A quel point les questions peuvent-t-elles être complexes ?
 
 Les questions peuvent être complexes mais l'IA doit pouvoir les comprendre. En pratique :
-* L'IA à une culture générale d'un enfant de 8 ans.
-* L'IA sait qu'elle lit telle article et spécifiquement tel paragraphe. Ainsi, elle connait le contexte.
-* Cette contextualisation a certaine limite. Par exempke, si vous êtes spécialiste d'Harry Potter mais que l'extrait que vous annotez ne comporte pas de mention des cours de Quidditch, vous ne pouvez pas en parler dans la question.
+* L'IA a une culture générale d'un enfant de 8 ans.
+* L'IA sait qu'elle lit tel article et spécifiquement tel paragraphe. Ainsi, elle connait le contexte.
+* Cette contextualisation a certaines limites. Par exemple, si vous êtes spécialiste d'Harry Potter mais que l'extrait que vous annotez ne comporte pas de mention des cours de Quidditch, vous ne pouvez pas en parler dans la question.
 
