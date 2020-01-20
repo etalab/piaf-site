@@ -71,17 +71,21 @@ _Rel Benjamin_
 
 #### Pourquoi est-il nécessaire de se créer un compte avant d'annoter ?
 
-En vous créant un compte, à partir uniquement d'une adresse mail, nous avons la possibilité de comptabiliser le nombre de contributeurs, et d'analyser le niveau de diversité de notre démarche.
+En vous créant un compte, à partir uniquement d'une adresse mail, vous pourrez avoir un suivi de vos annotations. De notre côté, un compte nous permet d'assurer la qualité des annotations en bloquant les bots et en nous offrant la possibilité d'analyser le nombre et le niveau de diversité de nos contributeurs.
 
 #### Pourquoi faire appel à une méthode de contribution volontaire ?
 
-Contrairement à d'autres démarches (dont celle dont nous nous inspirons en partie), nous avons fait le choix d'une méthode de collecte des données basée sur le volontariat et non pas en faisant appel à des plateformes de microtravail. D'autres voies sont possibles, par exemple le recrutement d'annotateurs, et il n'est pas impossible que nous faisions ce choix à un stade de notre projet.
+Contrairement à d'autres démarches qui font appel à des plateformes de microtravail, nous avons fait le choix d'une méthode de collecte des données basée sur le volontariat. D'autres voies sont possibles, par exemple le recrutement d'annotateurs, et il n'est pas impossible que nous faisions ce choix à un stade de notre projet.
 
-Notre pari du volontariat tient d'une intuition : PIAF porte un message de souveraineté (la place de la langue française dans l'IA), PIAF apporte une ressources, les données de questions-réponses en français, à de futurs réutilisateurs, et PIAF comporte un "aspect explicatif de l'IA". En participant à la collecte des données, les contributeurs apprenent non seulement aux robots à parler français, mais ils enrichissent aussi leurs connaissances sur l'IA. Consulter notre [charte de contribution](https://piaf.etalab.studio/contribution.html). 
+Notre pari du volontariat tient d'une double intuition : la constitution d'une base de données ouverte à besoin de tous - facteur de quantité et de diversité - et se fait au bénéifce de tous - base de donnée réutilisable et cas d'usage bénéficiant au plus grand nombre. Un volontaire participe donc à la constitution d'une infrastructure d'intérêt général dont il pourra par la suite bénéficier de manière directe ou indirecte. 
+
+Ce choix du volontariat s'inscrit aussi dans les valeurs de pédagogie d'Etalab. PIAF comporte ainsi un "aspect explicatif de l'IA". PIAF permet aux participants d'enrichir leurs connaissances sur l'IA et leur permet d'agir directement dans sa création. Consulter notre [charte de contribution](https://piaf.etalab.studio/contribution.html). 
 
 #### Est-ce grave de faire des erreurs d’orthographe en posant des questions ?
 
-Vous pouvez faire des erreurs d'orthographes lorsque vous posez des questions, lors de l'analyse, nous pourrons facilement corriger des petites erreurs. Par ailleurs, vous pouvez également poser des questions dont la réponse dans le texte n'est pas 100% cohérente en termes de syntaxe. Par exemple, cette paire est tout à fait possible : 
+Vous pouvez faire des erreurs d'orthographes lorsque vous posez des questions. Premièrement, lors de l'analyse, nous pourrons facilement corriger des petites erreurs. Deuxièment, PIAF vise à entrainer l'IA à comprendre notre langage et, soyons honnètes, dans notre quotidien, les fautes arrivent ! 
+
+Par ailleurs, vous pouvez également poser des questions dont la réponse dans le texte n'est pas 100% cohérente en termes de syntaxe. Par exemple, cette paire est tout à fait possible : 
 * Question : quelle langue était parlée dans la région de l'Acadie ?
 * Réponse : francophone
 
@@ -90,14 +94,16 @@ Vous pouvez faire des erreurs d'orthographes lorsque vous posez des questions, l
 L'enjeu principal est le suivant : il faut formuler une question dont la réponse se trouve dans le texte.
 
 Quelques conseils pour vous guider : 
-* Ne pas poser une question dont la réponse de trouve plusieurs fois dans le texte
-* Faire simple et court : plus la réponse à votre question est courte, mieux c'est
 * Poser des questions qui ne reprennent pas les mots exacts du texte : paraphraser, c'est la clef
+* Ne pas poser une question équivoque c'est à dire qui peut avoir plusieurs réponses différentes situées à différents du textes.
+* Faire simple et court : plus la réponse à votre question est courte, mieux c'est
 * Ne pas hésiter à poser des questions *comment*, *pourquoi* : le but, c'est d'apprendre à des robots à comprendre le français
 * Lorsque vous êtes coincés : n'hésitez pas à "annoter à l'envers" : choisissez un extrait dans le texte et posez votre question dessus 
 
 #### A quel point les questions peuvent-t-elles être complexes ?
 
-Les questions doivent être complexes, mais pas "difficiles". Il est donc important : 
-* De poser une question dont tout le contexte se trouve dans le texte. Même si vous êtes spécialiste d'Harry Potter, si l'extrait que vous annotez ne comporte pas de mention des cours de Quidditch, vous ne pouvez pas en parler dans la question.
-* De poser une question dans la réponse est continue dans le texte : vous ne pourrez pas sélectionner des extraits qui sont à différents endroits du texte.
+Les questions peuvent être complexes mais l'IA doit pouvoir les comprendre. En pratique :
+* L'IA à une culture générale d'un enfant de 8 ans.
+* L'IA sait qu'elle lit telle article et spécifiquement tel paragraphe. Ainsi, elle connait le contexte.
+* Cette contextualisation a certaine limite. Par exempke, si vous êtes spécialiste d'Harry Potter mais que l'extrait que vous annotez ne comporte pas de mention des cours de Quidditch, vous ne pouvez pas en parler dans la question.
+
