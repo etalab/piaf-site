@@ -10,6 +10,9 @@
     - name: Proposer un cas d'usage
       path: /usages.html
       section_id: usages
+    - name: FAQ
+      path: /faq.html
+      section_id: faq
 
 - name: Qui sommes-nous
   section_id : communaute
