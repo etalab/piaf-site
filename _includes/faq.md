@@ -4,11 +4,11 @@
 
 #### A quoi sert un jeu de données de questions-réponses en français ?
 
-Un jeu de questions-réponses comme celui créé par PIAF sert à entraîner des intelligences artificielles sur une tâche bien spécifique du [traitement automatique du langage naturel](https://fr.wikipedia.org/wiki/Traitement_automatique_du_langage_naturel) appelé "question answering" en anglais. Ces algorithmes dit "de questions-réponses" permettent de trouver des réponses à des questions précises portant sur un ensemble de documents, en pointant une portion du texte d’origine qu'ils estiment répondre à une question de l'utilisateur. Pour permettre à ces algorithmes d'être performants sur cette tâche complexe, il est nécessaire de les entraîner, c'est-à-dire (pour faire simple) de leur montrer un très grand nombre de questions et la réponse associée. Aujourd'hui, la majorité de ces ressources ne sont disponibles presque qu'en anglais, la plus connue étant par exemple [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/). Pour construire des IA aussi performantes en français qu'elles le sont en anglais, la seule solution est donc de disposer des mêmes ressources pour les entraîner.
+Un jeu de questions-réponses comme celui créé par PIAF sert à entraîner des intelligences artificielles sur une tâche bien spécifique du [traitement automatique du langage naturel](https://fr.wikipedia.org/wiki/Traitement_automatique_du_langage_naturel) appelé "question answering" en anglais. Ces algorithmes dit "de questions-réponses" permettent de trouver des réponses à des questions précises portant sur un ensemble de documents, en pointant une portion du texte d’origine qu'ils estiment répondre à une question de l'utilisateur. Pour permettre à ces algorithmes d'être performants sur cette tâche complexe, il est nécessaire de les entraîner, c'est-à-dire (pour faire simple) de leur montrer un très grand nombre de questions et la réponse associée. Aujourd'hui, la majorité de ces ressources ne sont disponibles presque qu'en anglais, la plus connue étant par exemple [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/). La construction d'une ressource de questions-réponses en français va permettre d'évaluer la performance des algorithmes sur le français et potentiellement d'améliorer leur performance.
 
 #### Quels sont les exemples d'usages des futures données de questions-réponses en français ?
 
-Les cas d'usages de ces algorithmes de questions-réponses francophones sont nombreux, aussi bien pour l'administration, les entreprises, et même la recherche. Rien que dans les services public, [les possibilités sont déjà nombreuses](https://piaf.etalab.studio/cas-usage/). Par exemple, en créant des IA capables de répondre correctement à des questions, on peut construire des agents conversationnels (ou chatbots) plus performants pour répondre à des questions simples des citoyens tout en libérant du temps aux (vrais) agents pour répondre à des demandes plus complexes. Ou encore pour améliorer des outils pré-existants : par exemple, dans le [code du travail numérique](https://code.travail.gouv.fr/), qui permet aujourd'hui de poser questions sur le droit du travail et d’obtenir en réponse des extraits pertinents de textes légaux, une IA de questions-réponses permettrait de surligner précisément dans le texte obtenu la réponse et ainsi faciliter la recherche d'informations.
+Les cas d'usages de ces algorithmes de questions-réponses francophones sont nombreux, aussi bien pour l'administration, les entreprises, et même la recherche. Rien que dans les services public, [les possibilités sont déjà nombreuses](https://piaf.etalab.studio/cas-usage/). Par exemple, en créant des IA capables de répondre correctement à des questions, on peut construire des agents conversationnels (ou chatbots) plus performants pour répondre à des questions simples des citoyens tout en libérant du temps aux (vrais) agents pour répondre à des demandes plus complexes. Ou encore pour améliorer des outils pré-existants : par exemple, dans le [code du travail numérique](https://code.travail.gouv.fr/), qui permet aujourd'hui de poser questions sur le droit du travail et d’obtenir en réponse des extraits pertinents de textes légaux, une IA de questions-réponses permettrait de surligner précisément dans le texte obtenu la réponse et ainsi faciliter la recherche d'informations. 
 
 ### Données / Démarche scientifique
 
@@ -51,9 +51,7 @@ Il s'agit de trois sous-domaines du jeu de données de questions-réponses final
 
 #### Quels modèles peut-on entraîner sur la base de données collectées ?
 
-Les données collectées peuvent être utilisé comme vous le souhaitez à condition de respecter la licence CC-by-SA.   
-  
-En pratique vous pouvez entraîner vos propres modèles, mais également des modèles disponibles sur internet.
+Les données collectées peuvent être utilisées comme vous le souhaitez à condition de respecter la licence CC-by-SA.   
 
 #### Quels sont les risques d'introduction de biais dans la démarche ?
 
@@ -95,11 +93,11 @@ Par ailleurs, vous pouvez également poser des questions dont la réponse dans l
 L'enjeu principal est le suivant : il faut formuler une question dont la réponse se trouve dans le texte.
 
 Quelques conseils pour vous guider : 
-* Poser des questions qui ne reprennent pas les mots exacts du texte : paraphraser, c'est la clef
+* Poser des questions qui ne reprennent pas les mots exacts du texte : paraphraser, c'est la clef.
 * Ne pas poser une question équivoque c'est à dire qui peut avoir plusieurs réponses différentes situées à différents du texte.
-* Faire simple et court : plus la réponse à votre question est courte, mieux c'est
-* Ne pas hésiter à poser des questions *comment*, *pourquoi* : le but, c'est d'apprendre à des robots à comprendre le français
-* Lorsque vous êtes coincés, n'hésitez pas à "annoter à l'envers" : choisissez une réponse dans le texte et posez votre question dessus 
+* Faire simple et court : plus la réponse à votre question est courte, mieux c'est.
+* Ne pas hésiter à poser des questions *comment*, *pourquoi* : le but, c'est d'apprendre à des robots à comprendre le français.
+* Lorsque vous êtes coincés, n'hésitez pas à chercher une réponse dans le texte et trouver dans un second temps la question qui correspond. 
 
 #### A quel point les questions peuvent-t-elles être complexes ?
 
