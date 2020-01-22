@@ -1,0 +1,12 @@
+---
+layout: pages
+dropdown_id: faq
+section_id: faq
+---
+
+<div class="container mx-auto font-cooper-light text-blue">
+  <div class="w-full sm:w-2/3 px-6 sm:px-0 mx-auto markdown-content">
+    {% capture my_include %}{% include faq.md %}{% endcapture %}
+    {{ my_include | markdownify }}
+  </div>
+</div>
