@@ -2,11 +2,11 @@
 
 ### Usages
 
-#### A quoi sert un jeu de données de questions-réponses en français ?
+**A quoi sert un jeu de données de questions-réponses en français ?**
 
 Un jeu de questions-réponses comme celui créé par PIAF sert à entraîner des intelligences artificielles sur une tâche bien spécifique du [traitement automatique du langage naturel](https://fr.wikipedia.org/wiki/Traitement_automatique_du_langage_naturel) appelé "question answering" en anglais. Ces algorithmes dit "de questions-réponses" permettent de trouver des réponses à des questions précises portant sur un ensemble de documents, en pointant une portion du texte d’origine qu'ils estiment répondre à une question de l'utilisateur. Pour permettre à ces algorithmes d'être performants sur cette tâche complexe, il est nécessaire de les entraîner, c'est-à-dire (pour faire simple) de leur montrer un très grand nombre de questions et la réponse associée. Aujourd'hui, la majorité de ces ressources ne sont disponibles presque qu'en anglais, la plus connue étant par exemple [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/). La construction d'une ressource de questions-réponses en français va permettre d'évaluer la performance des algorithmes sur le français et potentiellement d'améliorer leur performance.
 
-#### Quels sont les exemples d'usages des futures données de questions-réponses en français ?
+**Quels sont les exemples d'usages des futures données de questions-réponses en français ?**
 
 Les cas d'usages de ces algorithmes de questions-réponses francophones sont nombreux, aussi bien pour l'administration, les entreprises, et même la recherche. Rien que dans les services public, [les possibilités sont déjà nombreuses](https://piaf.etalab.studio/cas-usage/). Par exemple, en créant des IA capables de répondre correctement à des questions, on peut construire des agents conversationnels (ou chatbots) plus performants pour répondre à des questions simples des citoyens tout en libérant du temps aux (vrais) agents pour répondre à des demandes plus complexes. Ou encore pour améliorer des outils pré-existants : par exemple, dans le [code du travail numérique](https://code.travail.gouv.fr/), qui permet aujourd'hui de poser questions sur le droit du travail et d’obtenir en réponse des extraits pertinents de textes légaux, une IA de questions-réponses permettrait de surligner précisément dans le texte obtenu la réponse et ainsi faciliter la recherche d'informations. 
 
