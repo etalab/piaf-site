@@ -10,28 +10,24 @@ Pour répondre à cette question, il faut disposer de données en français nati
 
 ## Comment contribuer ?
 
-**Dans un premier temps, l'objectif sera de constituer avec vous le jeu de données d'évaluation de PIAF**, c'est à dire celui qui permettra d'évaluer si les données de questions-réponses en français natif sont plus performantes que des données traduites d'une autre langue. 
-
-Pour cela, nous organisons tous les vendredis, de 12h30 à 14h, des **"annotathons"**, ateliers de présentation hebdmodaires pour présenter le projet et vous guider pas à pas dans la contribution.
+**Dans un premier temps, l'objectif sera de constituer avec vous le jeu de données d'évaluation de PIAF**, c'est à dire celui qui permettra d'évaluer si les données de questions-réponses en français natif sont plus performantes que des données traduites d'une autre langue. Pour cela, nous organisons tous les vendredis, de 12h30 à 14h, des **"annotathons"**, ateliers de présentation hebdmodaires pour présenter le projet et vous guider pas à pas dans la contribution.
 
 **Vous souhaitez y participer ? Inscrivez-vous à notre [liste de diffusion](https://framaforms.org/edite-piaf-venez-creer-avec-nous-des-ia-francophones-1571693137) pour être informé et inscrit.**
 Si vous souhaitez organiser un annotathon au sein de votre organisation, vous pouvez également nous contacter par [mail](mailto:piaf@data.gouv.fr).
 
-Lorsque la plateforme sera plus largement accessible ou si vous avez participé à un premier annotathon, vous pourrez contribuer à PIAF où et quand vous le souhaitez !
-
-Une fois passé le cap des 20 000 questions-réponses générées, nous évaluerons la performance des données d'évaluation et lancerons une phase d'annotation pour les données d'entraînement.
+Lorsque la plateforme sera plus largement accessible ou si vous avez participé à un premier annotathon, vous pourrez contribuer à PIAF où et quand vous le souhaitez ! Une fois passé le cap questions-réponses pour le jeu de données d'évaluation, nous évaluerons la performance des données et lancerons une phase d'annotation pour les données d'entraînement.
 
 ### Voici un mode d'emploi pour annoter des articles :
 
 Annoter un extrait d'article Wikipédia signifie pour le projet PIAF de créer des questions et des réponses en rapport avec le contenu de l'article en question.
 
-**1. Rendez-vous sur la [plateforme d'annotation](https://piaf.etalab.studio/wait)**. Notre plateforme d'annotation a été développée en "mobile first", donc c'est encore plus simple de l'utiliser en mobilité !
+**1. Rendez-vous sur la [plateforme d'annotation](https://app.piaf.etalab.studio/app/)**. Notre plateforme d'annotation a été développée en "mobile first", donc c'est encore plus simple de l'utiliser en mobilité !
 
-**2. Une fois connecté(e), il vous est proposé de lire un extrait d'article et de générer 5 questions-réponses différentes** : écrivez une première question dont la réponse se trouve dans le texte, puis surlignez la réponse (si vous êtes sur mobile le surlignage est réalisé grâce à l'écran tactile, si vous êtes sur ordinateur, c'est avec votre souris). La réponse surlignée s'affiche ensuite en dessous de la question.
+**2. Une fois connecté(e), il vous est proposé de tester les différentes utilisations de la plateforme avant d'annoter.** Une fois les trois niveaux effectués vous pouvez ensuite choisir un thème et annoter un paragraphe. Comment faire ? Vous êtes invités à lire un extrait d'article et de générer 5 questions-réponses différentes : écrivez une première question dont la réponse se trouve dans le texte, puis surlignez la réponse (si vous êtes sur mobile le surlignage est réalisé grâce à l'écran tactile, si vous êtes sur ordinateur, c'est avec votre souris). La réponse surlignée s'affiche ensuite en dessous de la question.
 
 **3. Répétez la génération de questions-réponses pour les 4 suivantes**. Vous pouvez revenir en arrière et modifier vos contributions.
 
-**4. Validez votre contribution pour cet article et passez à un autre !**
+**4. Validez votre contribution pour cet article et passez à un autre !** Vous pouvez aussi changer de thème si vous le souhaitez.
 
 ![alt text](img/annotation-piaf-usa.PNG "title")
 
