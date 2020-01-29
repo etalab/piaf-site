@@ -7,7 +7,6 @@ permalink: /francophonie-ia/
 
 # Maître PIAF tenait en son bec un camemBERT
 ## Ou comment la francophonie met un pied dans l'IA: FlauBERT, CamemBERT, PIAF
-![Uploading file..._9cpp2dgon]()
 
 
 ![](https://pad.incubateur.net/uploads/upload_3cfa6d9072b4616c62ff7bd3ea56d480.png)
