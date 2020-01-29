@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "PIAF : oui, mais pour quoi faire ?"
+title: "Maître PIAF tenait en son bec un camemBERT"
 date:   2020-01-29 11:30:00 -0100
 permalink: /francophonie-ia/
 ---
