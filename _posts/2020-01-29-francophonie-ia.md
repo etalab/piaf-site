@@ -9,7 +9,7 @@ permalink: /francophonie-ia/
 ## Ou comment la francophonie met un pied dans l'IA: FlauBERT, CamemBERT, PIAF
 
 
-![](https://pad.incubateur.net/uploads/upload_3cfa6d9072b4616c62ff7bd3ea56d480.png)
+![](../img/fr_berts_piaf.png)
 
 Aujourd’hui, tester différentes approches de Traitement Automatique du Langage (NLP, de Natural Language Processing en anglais) devient de plus en plus simple : il vous suffit d'installer les bibliothèques appropriées, de télécharger les modèles pertinents et d'analyser les données. Les bibliothèques telles que [scikit-learn](https://scikit-learn.org/stable/), [spaCy](https://spacy.io/), [flair](https://github.com/flairNLP/flair), [Transformers](https://huggingface.co/transformers/), pour n’en citer que quelques unes, nous permettent d'expérimenter rapidement les modèles de NLP une fois que nos données sont prêtes. Bien que cela soit généralement vrai pour l'anglais, lorsque l’on s’attèle à analyser d'autres langues, comme le français, les tâches basiques comme la segmentation des phrases ou la tokenisation, s’avèrent être beaucoup moins triviales. Cette difficulté est principalement due à l'absence de modèles français (pré)-entraînés sur des données de qualité en langue française.
 Malheureusement, la construction de jeux de données en NLP est souvent une tâche longue et fastidieuse. De plus, l'obtention des données d’entraînement ne consacre pas la fin du voyage, puisque l’entraînement des nouveaux algorithmes de pointe nécessite d'énormes ressources de calcul.
@@ -23,7 +23,7 @@ Dans ce blogpost, nous nous intéressons à ces trois projets. Premièrement, no
 
 Lorsque nous construisons un système de traitement automatique du langage, nous utilisons généralement l'apprentissage automatique (machine learning en anglais). Puisque la machine ne comprend que les nombres, nous devons donc représenter chaque mot (ou token) de notre texte par une liste de valeurs numériques. L'une des principales promesses de l'apprentissage profond est que nous n'avons pas besoin de déterminer explicitement ces listes de valeurs. Dans le domaine du NLP, cela se traduit par des représentations vectorielles « sur étagère » de qualité des mots contenus dans les textes analysés. Ces représentations sont appelées « word embeddings »: des vecteurs représentant les mots au moyen de caractéristiques apprises en regardant de grandes quantités de textes. De plus, aujourd'hui, nous pouvons aller plus loin et utiliser ces modèles pré-entraînés, capturant les spécificités du langage concerné, pour traiter des tâches spécifiques de NLP. C'est ce que nous appelons le fine-tuning. Ces tâches vont de la classification de texte (par exemple, si un mail est un spam ou non), à la classification séquentielle (si un mot est un verbe, un nom ou un adjectif), en passant par des tâches plus complexes comme la réponse à des questions.
 
-![](https://pad.incubateur.net/uploads/upload_88704d12386168cd64f441352185e71c.png)
+![](../img/models_all.png)
 
 
 ### English-Onlyish 
@@ -53,7 +53,7 @@ Ce résultat justifie le coût opérationnel des modèles contextuels, qui néce
  
 Finalement, CamemBERT est une ressource très utile pour les praticiens en NLP qui travaillent avec des textes en français. Il permet de contrebalancer la scène du NLP, principalement anglophone. Le modèle a été mis à disposition dans la librairie [Transformers](https://huggingface.co/transformers/model_doc/camembert.html#), ce qui le rend actionnable *off-the-shelf*.
 
-![](https://pad.incubateur.net/uploads/upload_86811b31295bd13e84210a5d6cb9376d.png)
+![](../img/camembert_flaubert2.png)
 
 
 #### FlauBERT
@@ -62,7 +62,7 @@ Quelques semaines après CamemBERT, [FlauBERT](https://github.com/getalp/Flauber
 Pour entraîner FlauBERT, ils utilisent une configuration similaire à celle de CamemBERT (et donc BERT). Les détails se trouvent [dans leur article](https://arxiv.org/abs/1912.05372). De plus, l'équipe FlauBERT a décidé de construire une version de BERT$_{large}$. Cela dit, l’entraînement était encore en cours au moment de la publication.
 
 Leurs résultats montrent à nouveau qu'un modèle en langue française améliore les résultats par rapport à des modèles BERT similaires (multilingues) ainsi qu'à d'autres modèles basés sur le français. Les performances de FlauBERT et de CamemBERT sont très proches. Malheureusement, FLUE n'inclut pas de benchmark NER dans FLUE. Cependant, pour des tâches assez similaires de classification séquentielle, constituency parsing et POS-tagging, la performance de FlauBERT est globalement un peu meilleure que celle de camemBERT. Plus intéressant encore, l'ensemble FlauBERT + CamemBERT donne les meilleurs résultats. Comme l'ont noté les auteurs, cela indique que les deux modèles sont complémentaires.
-    Dans l'ensemble, FlauBERT a des performances très similaires à celles de CamemBERT alors qu'il est entraîné sur un volume plus restreint de données. Il est à noter aussi que FlauBERT a été entraîné sur des ressources informatiques françaises (machine [Jean Zay](http://www.idris.fr/annonces/annonce-jean-zay.html) du [GENCI](http://www.genci.fr/en])).
+Dans l'ensemble, FlauBERT a des performances très similaires à celles de CamemBERT alors qu'il est entraîné sur un volume plus restreint de données. Il est à noter aussi que FlauBERT a été entraîné sur des ressources informatiques françaises (machine [Jean Zay](http://www.idris.fr/annonces/annonce-jean-zay.html) du [GENCI](http://www.genci.fr/en])).
 
 
 
@@ -72,14 +72,14 @@ Les deux modèles camemBERT et FlauBERT sont entraînés sur des jeux de donnée
 
 ## Projet PIAF
 
-![](https://pad.incubateur.net/uploads/upload_a10277815766c50fc86b27f1cfa7fe84.png)
+![](../img/piaf_screenshot.png)
 
 
 
 Pour résoudre ce problème, nous sommes en train de constituer PIAF, un jeu de données de questions-réponses en français. Mais pourquoi avons-nous décidé de commencer par un jeu de données de questions-réponses ? Un de nos principaux objectifs à [Etalab](https://www.etalab.gouv.fr/) est de fournir aux citoyens un meilleur accès à l’information. Notre expérience de coordination et de soutien de nombreux projets en [science des données](https://entrepreneur-interet-general.etalab.gouv.fr/) et en [apprentissage machine](https://www.etalab.gouv.fr/intelligence-artificielle-decouvrez-les-15-nouveaux-projets-selectionnes) nous a appris que les moteurs de recherche jouent un rôle majeur dans l'amélioration des interactions entre les administrations et les citoyens. Afin de concevoir un nouveau service basé sur un moteur de recherche, la première étape est d'installer et de maintenir une instance Elasticsearch, ce que la plupart de nos partenaires (administrations françaises) ont réalisé. Compléter un moteur de recherche avec un module bien paramétré de questions-réponses pourrait améliorer l'expérience générale de l'utilisateur en lui retournant des informations plus précises et plus pertinentes. 
 De façon générale, nous visons à construire des outils et des ressources afin de nourrir des expérimentations de NLP français et d’apprentissage automatique pour tous les acteurs, publics ou privés. Nous croyons que cet objectif est partagé par la communauté, comme le souligne François Chollet sur Twitter :
 
-![](https://pad.incubateur.net/uploads/upload_dfad829e9c2948682c3cd0962e9c4caa.png)
+![](../img/chollet.png)
 
 
 
@@ -105,7 +105,7 @@ Apres quatre mois d’annotathons PIAF, nous sommes fiers d’avoir aujourd’hu
 ## [camem|Flau]BERT + PIAF
 Mais quels liens peut-on faire entre les BERT français et PIAF ? Au-delà du fait que ces deux types de ressources visent à améliorer la scène française de la R&D en NLP, il paraît naturel d'utiliser un de ces modèles (ou por qué no los dos ?) et de l'affiner sur la tâche de QA. Une telle expérience pourrait être facilitée par la très utile librairie [Transformers](https://github.com/huggingface/transformers) ou par d'autres outils similaires. Par exemple, [les praticiens en NLP](https://towardsdatascience.com/benchmark-ner-algorithm-d4ab01b2d4c3) ont déjà commencé à jouer avec camemBERT pour la tâche de pseudonymisation de textes. Pour l'instant, ici à Etalab, nous allons attendre que notre jeu de données soit plus volumineux et commencerons alors à le tester sur quelques [cas d'utilisation de l'administration](https://piaf.etalab.studio/cas-usage/). 
 
-![](https://pad.incubateur.net/uploads/upload_4f76b90507acf1d454977cbfcf0b25e4.svg)
+![](../img/bert_piaf_post.svg)
 
 ## On a besoin de vous !
 Nous remercions profondément nos contributeurs qui ont fait vivre ce projet jusqu’à aujourd’hui. Si toi aussi tu veux rejoindre la communauté et contribuer à PIAF en écrivant des questions-réponses, tu peux le faire ici : [piaf.etalab.studio](http://piaf.etalab.studio). Ce sera aussi l’occasion d’apprendre plein de choses en lisant des articles Wikipedia ! Enfin, on croise les doigts pour rencontrer la communauté NLP en mai prochain à la conférence [LREC 2020](https://lrec2020.lrec-conf.org/en/).
