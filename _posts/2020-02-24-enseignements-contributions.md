@@ -28,7 +28,7 @@ Lorsque nous avons décidé de nous aventurer dans l'univers des jeux de donnée
 
 Pour nous inspirer, nous avons fait appel à plusieurs groupes de spécialistes, pour qu'ils nous conseillent et nous suivent. Deux rencontres ont été particulièrement enrichissantes : 
 * Les équipes de [Common Voice](https://voice.mozilla.org/fr), qui nous ont raconté la génèse de ce projet de données vocales ouvertes. Leurs conseils : rendre le projet intelligible, disposer d'une plateforme d'annotation simple d'utilisation et fédérer la communauté en ligne et en présentiel ; 
-* Nous échangeons régulièrement avec Antonio Casilli, sociologue et spécialiste des humanités numériques sur les enjeux éthiques du projet. Ophélie Coelho, élève d'Antonio Casilli à l'EHESS, nous suit tout au long du projet. En effet, dans la mesure où nous proposons à des personnes volontaires de passer du temps pour annoter des textes, des questions autour du travail et de l'engagement se sont posées (nous y reviendrons plus loin dans cet article).
+* Nous échangeons régulièrement avec des personnes spécialisées en humanités numériques pour aborder certaines questions autour de l'engagement des contributeurs et du sens de ce projet.
 
 ## Une méthodologie contributive calibrée et orientée vers les objectifs de PIAF
 
