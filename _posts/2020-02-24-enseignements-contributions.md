@@ -1,12 +1,12 @@
 ---
 layout: posts
-title: "Titre à trouver"
-date:   
+title: "Enseignements sur la contribution participative"
+date: 2020-02-24 11:30:00 -0100  
 permalink: /enseignements-contributions/
 ---
 
-# Titre à trouver
-## Sous titre à trouver
+# Enseignements sur la contribution participative
+## Les inconvénients nécessaire pour une alternative au micro-travail sous-payé
 
 ![Premier annotathon organisé au lieu de la transformation publique](/img/annotathon-1.jpg)
 
