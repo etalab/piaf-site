@@ -1,12 +1,12 @@
 ---
 layout: posts
-title: "Enseignements sur la contribution participative"
+title: "Mener un projet d'IA contributif : enseignements et méthodologies"
 date: 2020-02-24 11:30:00 -0100  
 permalink: /enseignements-contributions/
 ---
 
-# Enseignements sur la contribution participative
-## Les inconvénients nécessaire pour une alternative au micro-travail sous-payé
+# Mener un projet d'IA contributif : enseignements et méthodologies
+## Comment le projet PIAF explore les enjeux de la contribution et des communautés
 
 ![Premier annotathon organisé au lieu de la transformation publique](/img/annotathon-1.jpg)
 
