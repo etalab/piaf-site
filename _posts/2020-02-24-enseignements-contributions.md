@@ -28,7 +28,7 @@ Lorsque nous avons décidé de nous aventurer dans l'univers des jeux de donnée
 
 Pour nous inspirer, nous avons fait appel à plusieurs groupes de spécialistes, pour qu'ils nous conseillent et nous suivent. Deux rencontres ont été particulièrement enrichissantes : 
 * Les équipes de [Common Voice](https://voice.mozilla.org/fr), qui nous ont raconté la génèse de ce projet de données vocales ouvertes. Leurs conseils : rendre le projet intelligible, disposer d'une plateforme d'annotation simple d'utilisation et fédérer la communauté en ligne et en présentiel ; 
-* Nous échangeons régulièrement avec des personnes spécialisées en humanités numériques pour aborder certaines questions autour de l'engagement des contributeurs et du sens de ce projet.
+* Nous échangeons régulièrement avec des chercheurs en humanités numériques pour aborder les questions, notamment éthiques, que pose l'engagement des contributeurs dans un projet technologique porté par une administration d'État, et explorer le rôle d'un tel objet technique dans la ligne d'horizon technologique portée par le Lab IA.
 
 ## Une méthodologie contributive calibrée et orientée vers les objectifs de PIAF
 
