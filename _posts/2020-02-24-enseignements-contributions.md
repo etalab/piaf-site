@@ -14,7 +14,7 @@ Le projet PIAF "Pour des intelligences artificielles francophones" a pour object
 
 Lancé en juin 2019, ce projet a été mené par une petite équipe au sein d'Etalab, plus précisément du [Lab IA](https://www.etalab.gouv.fr/datasciences-et-intelligence-artificielle), dont la mission est de diffuser des méthodes et des ressources pour l'IA publique. Pendant 6 mois, l'équipe a défini sa méthodologie et un axe a été rapidement privilégié : faire de PIAF un projet **contributif**, qui permette autant de **diversifier les participants au projet (ie : ne pas uniquement en faire un projet technique)** que de **constituer une communauté autour des sujets d'IA et d'open data**.
 
-Qu'avons-nous appris de cette expérience ? Quelles sont les principales difficultés auxquelles nous avons été confrontées ? Quelles ont été nos surprises ? Nous vous proposons, dans cet article, un retour d'expérience qui pourra être utile à d'autres équipes.
+Qu'avons-nous appris de cette expérience ? Quelles sont les principales difficultés auxquelles nous avons été confrontés ? Quelles ont été nos surprises ? Nous vous proposons, dans cet article, un retour d'expérience qui pourra être utile à d'autres équipes.
 
 ### Un projet technique, une approche moins technique
 
@@ -36,7 +36,7 @@ Ces échanges et notre expérience des formats participatifs mis en place par Et
 
 ### Les volets stratégique et scientifique : Open Labs et échanges avec la communauté scientifique
 
-* **Les Open Labs** : afin de tenir une diversité de parties prenantes sur un projet, au lieu d'organiser des "comités de pilotage", nous avons préféré un format plus ouvert, les open labs. Le principe : chaque trimestre, réunir les contributeurs et intéressés pour faire le point sur le projet dans son ensemble (avancées, problèmes opportunités). 
+* **Les Open Labs** : afin de tenir une diversité de parties prenantes sur un projet, au lieu d'organiser des "comités de pilotage", nous avons préféré un format plus ouvert, les open labs. Le principe : chaque trimestre, réunir les contributeurs et intéressés pour faire le point sur le projet dans son ensemble (avancées, problèmes, opportunités). 
 
 * **Les échanges pair-à-pair** avec des communautés plus techniques. Par exemple, nous avons présenté PIAF à l'équipe [ALMAnaCH d'Inria](https://team.inria.fr/almanach/) d'Inria qui a élaboré le modèle CamemBERT (voir [notre article](https://piaf.etalab.studio/francophonie-ia/) sur le sujet). Le lien avec la communauté scientifique nous a permis de conforter nos hypothèses et d'imaginer des collaborations futures.
 
