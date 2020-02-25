@@ -36,7 +36,7 @@ Ces échanges et notre expérience des formats participatifs mis en place par Et
 
 ### Les volets stratégique et scientifique : Open Labs et échanges avec la communauté scientifique
 
-* **Les Open Labs** : afin de tenir une diversité de parties prenantes sur un projet, au lieu d'organiser des "comités de pilotage", nous avons préféré un format plus ouvert, les open labs. Le principe : chaque trimestre, réunir les contributeurs et intéressés pour faire le point sur le projet dans son ensemble (avancées, problèmes, opportunités). 
+* **Les Open Labs** : afin de tenir informée une diversité de parties prenantes sur un projet, au lieu d'organiser des "comités de pilotage", nous avons préféré un format plus ouvert, les open labs. Le principe : chaque trimestre, réunir les contributeurs et personnes intéressés pour faire le point sur le projet dans son ensemble (avancées, problèmes, opportunités). 
 
 * **Les échanges pair-à-pair** avec des communautés plus techniques. Par exemple, nous avons présenté PIAF à l'équipe [ALMAnaCH d'Inria](https://team.inria.fr/almanach/) qui a élaboré le modèle CamemBERT (voir [notre article](https://piaf.etalab.studio/francophonie-ia/) sur le sujet). Le lien avec la communauté scientifique nous a permis de conforter nos hypothèses et d'imaginer des collaborations futures.
 
@@ -44,7 +44,9 @@ Ces échanges et notre expérience des formats participatifs mis en place par Et
 
 * **Une liste de diffusion** : lors du lancement du projet, nous avons ouvert une liste de diffusion, qui s'est enrichie au fil des semaines, des événements et des rencontres. 
 
-* **Les "annotathons"** : chaque semaine, nous réunissons tout contributeur volontaire et/ou intéressé par le projet au Lieu de la transformation publique (merci la DITP). **En 4 mois (octobre-janvier), nous avons organisé 12 annotathons et réuni plus de 150 personnes**. Lors de ces moments contributifs, animés par Benjamin, notre chargé de déploiement, les contributeurs "s'embarquent" dans le projet, en créant un compte et en réalisant une première annotation. Des échanges ont lieu sur le projet, l'expérience utilisateur et de nouvelles annotations sont réalisées. Ces événements nous ont permis, au fil de l'eau : 
+* **Les "annotathons"** : chaque semaine, nous réunissons tout contributeur volontaire et/ou intéressé par le projet au Lieu de la transformation publique (merci la DITP). **En 4 mois (octobre-janvier), nous avons organisé 12 annotathons et réuni plus de 150 personnes**. Lors de ces moments contributifs, animés par Benjamin, notre chargé de déploiement, les contributeurs "s'embarquent" dans le projet, en créant un compte et en réalisant une première annotation. Des échanges ont lieu sur le projet, l'expérience utilisateur et de nouvelles annotations sont réalisées. 
+
+Ces événements nous ont permis, au fil de l'eau : 
     - d'apporter des améliorations UX sur la plateforme d'annotation
     - d'affiner notre discours sur le projet
     - d'identifier des cas d'usages et des partenariats avec des administrations
@@ -62,42 +64,43 @@ Vous l'aurez compris, PIAF c'est d'abord générer des questions-réponses en fr
 Pendant les 4 premiers mois d'annotation (octobre 2019-janvier 2020), notre cible était d'atteindre 20 000 questions-réponses pour constituer un **premier jeu de données d'évaluation**, afin _d'évaluer_ la performance de modèles sur un jeu de données nativement en français. Les annotathons ont été mis en place pour atteindre cet objectif et répondre à une exigence de qualité : ces premières données devaient être produites par des "annotateurs certifiés", c'est-à-dire formés par l'équipe.
 
 Vous l'aurez compris aussi, nous avions plusieurs options pour générer ces questions-réponses : 
-- faire appel à une plateforme de microtravail pour les générer (Amazon Mechanical Turk) ; 
+- faire appel à une plateforme de microtravail pour les générer (comme par exemple Amazon Mechanical Turk) ; 
 - recruter des annotateurs dans nos équipes ; 
 - proposer des contributeurs volontaires.
 
-Nous avons fait le choix d’explorer l’option de la contribution volontaire. Cette option suppose de se poser la question de la _motivation et l'engagement des contributeurs_. Cette question est d’autant plus difficile qu’à la différence d’autres projets contributifs comme OpenStreetMap ou Wikipédia, les usages d’un tel jeu de données ne sont pas directs et dépendent des algorithmes qui pourront être entraînés sur les données collectées.
+**Nous avons fait le choix d’explorer l’option de la contribution volontaire**. Cette option suppose de se poser la question de la _motivation et l'engagement des contributeurs_. Cette question est d’autant plus difficile qu’à la différence d’autres projets contributifs comme OpenStreetMap ou Wikipédia, les usages d’un tel jeu de données ne sont pas directs et dépendent des algorithmes qui pourront être entraînés sur les données collectées.
 
 Pour relever ce défi et explorer cette option dans la pratique, **les annotathons que nous avons organisés avec les agents publics comportaient une dimension pédagogique importante** : en venant à un annotathon, un agent public acquiert des connaissances sur ce qu’est l’IA, le traitement automatique du langage, les usages des questions-réponses pour les services publics.
-Par ailleurs, pour que le contrat avec les contributeurs soit clair, nous avons rendu publique une [charte de contribution](https://piaf.etalab.studio/contribution.html) et nos CGU explicitent les [bornes du projet](https://piaf.etalab.studio/cgu.html).
+Par ailleurs, pour que le contrat avec les contributeurs soit clair, nous avons rendu publique une [charte de contribution](https://piaf.etalab.studio/contribution.html)(voir capture d'écran ci-dessous) et nos CGU explicitent les [bornes du projet](https://piaf.etalab.studio/cgu.html).
 
 ![Impression d'écran de la charte de contribution](/img/charte-contribution.png)
 
-**En 4 mois, nous avons atteint près 5 000 contributions sur les premières 20 000 espérées**. 
-Pourquoi ? Plusieurs explications : 
+**En 4 mois, nous avons atteint près de 5 000 contributions sur les premières 20 000 cibles**. 
+
+Pourquoi cette performance ? Plusieurs explications : 
 * Nous avons sous-estimé la difficulté de la "tâche" d'annotation : lire un paragraphe d'un texte Wikipédia puis poser des questions et des réponses dessus est complexe, surtout lorsque le contributeur ne choisit pas le texte qu'il annote ; 
-* Une fois qu'une personne est venue à un annotathon, elle revient rarement à un annotathon, et elle annote rarement en dehors de ces temps collectifs ; 
+* Une fois qu'une personne est venue à un annotathon, elle revient rarement les semaines suivantes, et elle annote rarement en dehors de ces temps collectifs ; 
 * [Notre plateforme](https://app.piaf.etalab.studio/) n'était pas assez robuste et auto-porteuse pour être directement diffusée auprès du grand public. Maintenant c'est le cas !
 
 Cela étant dit, si l'on rapporte les 5 000 questions-réponses aux 350 contributeurs, le résultats est plutôt encourageant !
 
 Ce bilan est utile car il confirme certaines hypothèses (et inquiétudes) que nous avions exprimées au démarrage du projet. 
-* **La première étant celle qu'un projet d'une telle complexité** - mais avec un potentiel énorme pour la francophonie - nécessite davantage d'investissement dans l'animation de communautés et le déploiement. 
+* **La première étant celle qu'un projet d'une telle complexité** - mais avec un potentiel énorme pour la francophonie - **nécessite davantage d'investissement dans l'animation de communautés et le déploiement**. 
 * **La deuxième hypothèse est celle liée au design** : plus une plateforme est simple d'utilisation et raconte clairement les objectifs d'un projet, plus il est simple de diversifier et d'amplifier les contributions. 
-* **La troisième est celle liée à l'engagement** : les contributeurs doivent avoir une certaine visibilté sur ce à quoi ils contribuent. Le fait de construire un jeu de données francophones "souverain" ne suffit pas, il faut que les usages soient mieux identifiables.
+* **La troisième est celle liée à l'engagement** : les contributeurs doivent avoir une certaine visibilté sur ce à quoi ils contribuent. Le fait de construire un jeu de données francophones "souverain" ne suffit pas, il faut que les usages soient mieux et plus directement identifiables.
 
 #### C'est pourquoi plusieurs prochaines étapes nous attendent :
-* Ouvrir les données collectées et tester les premières données sur des cas d'usages de l'administration : nous avons quelques pistes (voir notre article sur [les cas d'usages](https://piaf.etalab.studio/cas-usage/)). Par ailleurs, nous avons pris la décision de ne pas réaliser de "leader board" (laisser une partie des données fermées afin de comparer la performance de différents modèles sur des données non utilisées à l'entraînement) et d'ouvrir toutes les données collectées
-* Amplifier le nombre de questions-réponses : après des analyses du premier jeu de données (5000 questions-réponses), nous avons évalué avoir besoin de 20 000 questions-réponses pour le jeu d'entraînement (au lieu des 100 000 au démarrage du projet). 
-* Identifier les nouveaux "PIAF" du Lab IA : ce projet nous a permis de confirmer que la communauté IA exprimait le besoin de disposer d'autres types de données ouvertes et francophones pour l'IA
+* **Ouvrir les données collectées et tester les premières données sur des cas d'usages de l'administration** : nous avons quelques pistes (voir notre article sur [les cas d'usages](https://piaf.etalab.studio/cas-usage/)). Par ailleurs, nous avons pris la décision de ne pas réaliser de "leader board" (laisser une partie des données fermées afin de comparer la performance de différents modèles sur des données non utilisées à l'entraînement) et d'ouvrir toutes les données collectées
+* **Amplifier le nombre de questions-réponses** : après des analyses du premier jeu de données (5000 questions-réponses), nous avons évalué avoir besoin de 20 000 questions-réponses pour le jeu d'entraînement (au lieu des 100 000 au démarrage du projet). 
+* **Identifier les nouveaux "PIAF" du Lab IA** : ce projet nous a permis de confirmer que la communauté IA exprimait le besoin de disposer d'autres types de données ouvertes et francophones pour l'IA
 
 ### Pour résumer, quelques conseils pour mener un projet d'IA (ou autre) de manière ouverte et contributive : 
-- Demander conseil à des personnes qui ont déjà fait ces expériences
-- Echanger collectivement sur les enjeux éthiques (et les rendre visibles)
-- Mobiliser une équipe à plein temps sur l'animation de la communauté et le déploiement : nous avons appris qu'il n'était pas possible d'avoir uniquement un développeur, un chargé de développement, et un coach à mi-temps. Il faut une équipe en permanence pour répondre aux besoins des utilisateurs d'un projet participatif.
-- Documenter le projet en continu
-- Tester la méthode de contribution et accepter de la changer si celle que vous avez choisi ne trouve pas son "économie"
+* Demander conseil à des personnes qui ont déjà fait ces expériences
+* Echanger collectivement sur les enjeux éthiques (et les rendre visibles)
+* Mobiliser une équipe à plein temps sur l'animation de la communauté et le déploiement : nous avons appris qu'il n'était pas possible d'avoir uniquement un développeur, un chargé de développement, et un coach à mi-temps. Il faut une équipe en permanence pour répondre aux besoins des utilisateurs d'un projet participatif.
+* Documenter le projet en continu
+* Tester la méthode de contribution et accepter de la changer si celle que vous avez choisi ne trouve pas son "économie"
 
-Vous avez un avis ? Des idées ? Vous voulez tester PIAF ? -> Vous pouvez désormais annoter PIAF en illimité, valider des questions (nouveau mode) : rdv sur https://app.piaf.etalab.studio/app/
+Vous avez un avis ? Des idées ? Vous voulez tester PIAF ? -> Vous pouvez désormais annoter PIAF en illimité, valider des questions (nouveau mode de "validation") : rdv sur https://app.piaf.etalab.studio/app/
 
 -> Vous pouvez également nous écrire : [piaf@data.gouv.fr](piaf@data.gouv.fr)
