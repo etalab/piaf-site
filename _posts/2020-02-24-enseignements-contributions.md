@@ -44,7 +44,7 @@ Ces échanges et notre expérience des formats participatifs mis en place par Et
 
 * **Une liste de diffusion** : lors du lancement du projet, nous avons ouvert une liste de diffusion, qui s'est enrichie au fil des semaines, des événements et des rencontres. 
 
-* **Les "annotathons"** : chaque semaine, nous réunissons tout contributeur volontaire et/ou intéressé par le projet au Lieu de la transformation publique (merci la DITP). **En 4 mois (octobre-janvier), nous avons organisé 12 annotathons et réuni plus de 150 personnes**. Le format : animé par Benjamin, notre chargé de déploiement, les contributeurs "s'embarquent" dans le projet, en créant un compte, réalisant une première annotation, puis des échanges ont lieu sur le projet, l'expérience utilisateur et de nouvelles annotations sont réalisées. Ces événements nous ont permis, au fil de l'eau : 
+* **Les "annotathons"** : chaque semaine, nous réunissons tout contributeur volontaire et/ou intéressé par le projet au Lieu de la transformation publique (merci la DITP). **En 4 mois (octobre-janvier), nous avons organisé 12 annotathons et réuni plus de 150 personnes**. Lors de ces moments contributifs, animés par Benjamin, notre chargé de déploiement, les contributeurs "s'embarquent" dans le projet, en créant un compte et en réalisant une première annotation. Des échanges ont lieu sur le projet, l'expérience utilisateur et de nouvelles annotations sont réalisées. Ces événements nous ont permis, au fil de l'eau : 
     - d'apporter des améliorations UX sur la plateforme d'annotation
     - d'affiner notre discours sur le projet
     - d'identifier des cas d'usages et des partenariats avec des administrations
@@ -88,7 +88,7 @@ Ce bilan est utile car il confirme certaines hypothèses (et inquiétudes) que n
 
 #### C'est pourquoi plusieurs prochaines étapes nous attendent :
 * Ouvrir les données collectées et tester les premières données sur des cas d'usages de l'administration : nous avons quelques pistes (voir notre article sur [les cas d'usages](https://piaf.etalab.studio/cas-usage/)). Par ailleurs, nous avons pris la décision de ne pas réaliser de "leader board" (laisser une partie des données fermées afin de comparer la performance de différents modèles sur des données non utilisées à l'entraînement) et d'ouvrir toutes les données collectées
-* Amplifier le nombre de questions-réponses : après des analyses du premier jeu de données (5000 questions-réponses), nous avons évalué avoir besoin de 20 000 questions-réponses pour le jeu d'entraînement (au lieu des 100 000 au démarrage du projet). Pour cela, nous évaluons les besoins pour l'équipe du produit PIAF et la communauté. 
+* Amplifier le nombre de questions-réponses : après des analyses du premier jeu de données (5000 questions-réponses), nous avons évalué avoir besoin de 20 000 questions-réponses pour le jeu d'entraînement (au lieu des 100 000 au démarrage du projet). 
 * Identifier les nouveaux "PIAF" du Lab IA : ce projet nous a permis de confirmer que la communauté IA exprimait le besoin de disposer d'autres types de données ouvertes et francophones pour l'IA
 
 ### Pour résumer, quelques conseils pour mener un projet d'IA (ou autre) de manière ouverte et contributive : 
