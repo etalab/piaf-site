@@ -101,6 +101,6 @@ Ce bilan est utile car il confirme certaines hypothèses (et inquiétudes) que n
 * Documenter le projet en continu
 * Tester la méthode de contribution et accepter de la changer si celle que vous avez choisi ne trouve pas son "économie"
 
-Vous avez un avis ? Des idées ? Vous voulez tester PIAF ? -> Vous pouvez désormais annoter PIAF en illimité, valider des questions (nouveau mode de "validation") : rdv sur https://app.piaf.etalab.studio/app/
+Vous avez un avis ? Des idées ? Vous voulez tester PIAF ? -> Vous pouvez désormais annoter PIAF en illimité, valider des questions (nouveau mode de "validation") : rdv sur [https://app.piaf.etalab.studio/app/](https://app.piaf.etalab.studio/app/).
 
 -> Vous pouvez également nous écrire : [piaf@data.gouv.fr](piaf@data.gouv.fr)
