@@ -6,13 +6,13 @@ permalink: /francophonie-ia/
 ---
 
 # Maître PIAF tenait en son bec un camemBERT
-## Ou comment la francophonie met un pied dans l'IA: FlauBERT, CamemBERT, PIAF
+## Ou comment la francophonie met un pied dans l'IA : FlauBERT, CamemBERT, PIAF
 
 
 ![](../img/fr_berts_piaf.png)
 
 Aujourd’hui, tester différentes approches de Traitement Automatique du Langage (NLP, de Natural Language Processing en anglais) devient de plus en plus simple : il vous suffit d'installer les bibliothèques appropriées, de télécharger les modèles pertinents et d'analyser les données. Les bibliothèques telles que [scikit-learn](https://scikit-learn.org/stable/), [spaCy](https://spacy.io/), [flair](https://github.com/flairNLP/flair), [Transformers](https://huggingface.co/transformers/), pour n’en citer que quelques unes, nous permettent d'expérimenter rapidement les modèles de NLP une fois que nos données sont prêtes. Bien que cela soit généralement vrai pour l'anglais, lorsque l’on s’attèle à analyser d'autres langues, comme le français, les tâches basiques comme la segmentation des phrases ou la tokenisation, s’avèrent être beaucoup moins triviales. Cette difficulté est principalement due à l'absence de modèles français (pré)-entraînés sur des données de qualité en langue française.
-Malheureusement, la construction de jeux de données en NLP est souvent une tâche longue et fastidieuse. De plus, l'obtention des données d’entraînement ne consacre pas la fin du voyage, puisque l’entraînement des nouveaux algorithmes de pointe nécessite d'énormes ressources de calcul.
+Malheureusement, la construction de jeux de données en NLP est souvent une tâche longue et fastidieuse. De plus, l'obtention des données d’entraînement ne marque pas la fin du voyage, puisque l’entraînement des nouveaux algorithmes de pointe nécessite d'énormes ressources de calcul.
 Pour relever ce défi, plusieurs laboratoires de recherche et entreprises francophones travaillent depuis longtemps à la démocratisation du NLP francophone et ont publié à la fois des modèles pré-entraînés et des corpus de textes français.  Ces derniers mois, des ressources très intéressantes en NLP français ont émergé. Nous faisons ici référence à [CamemBERT](https://camembert-model.fr/), [FlauBERT](https://github.com/getalp/Flaubert) et [PIAF](https://piaf.etalab.studio) (Pour une IA Francophone). Les deux premiers sont des modèles de langage pré-entraînés et le dernier est un jeu de données de Question-Réponse (QA) en français. 
 
 Dans ce blogpost, nous nous intéressons à ces trois projets. Premièrement, nous faisons une description rapide des modèles camemBERT et FlauBERT. Nous poursuivons avec une présentation plus détaillée du projet PIAF que nous avons développé à [Etalab](https://www.etalab.gouv.fr/). Finalement, nous réfléchissons à la manière d’orchestrer ces trois ressources.
@@ -28,7 +28,7 @@ Lorsque nous construisons un système de traitement automatique du langage, nous
 
 ### English-Onlyish 
 
-Aujourd'hui, en anglais, les ressources en NLP sont vastes et abondantes. Presque chaque mois, de nouveaux modèles sont publiés, promettant des performances toujours meilleures et un temps d’entraînement toujours plus rapide. S'il est vrai que des modèles multilingues existent, leurs performances  pourraient être encore améliorées  avec des modèles pré-entraînés dans une langue spécifique. Pour le français, comme pour d'autres langues hormis l’anglais, on remarque un manque  de modèles de langage pré-entraînés.
+Aujourd'hui, en anglais, les ressources en NLP sont vastes et abondantes. Presque chaque mois, de nouveaux modèles sont publiés, promettant des performances toujours meilleures et un temps d’entraînement toujours plus rapide. S'il est vrai que des modèles multilingues existent, leurs performances  peuvent bien souvent être encore améliorées avec des modèles pré-entraînés dans une langue spécifique. Pour le français, comme pour d'autres langues hormis l’anglais, on remarque un manque de modèles de langage pré-entraînés.
 
 
 
@@ -83,7 +83,7 @@ De façon générale, nous visons à construire des outils et des ressources afi
 
 
 
-Enfin, à notre connaissance, il n'existe pas de jeu de données français de type SQUAD, c'est pourquoi nous en construisons un en collaboration avec les experts en NLP de la start-up [ReciTAL](https://recital.ai/).
+Enfin, à notre connaissance, il n'existe pas de jeu de données français similaire à SQuAD, c'est pourquoi nous en construisons un en collaboration avec les experts en NLP de la start-up [ReciTAL](https://recital.ai/).
 
 
 ### Démarche
