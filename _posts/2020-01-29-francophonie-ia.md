@@ -6,7 +6,7 @@ permalink: /francophonie-ia/
 ---
 
 # Maître PIAF tenait en son bec un camemBERT
-## Ou comment la francophonie met un pied dans l'IA : FlauBERT, CamemBERT, PIAF
+## Ou comment la francophonie continue à se faire de la place dans l'IA : FlauBERT, CamemBERT, PIAF
 
 
 ![](../img/fr_berts_piaf.png)
@@ -103,7 +103,7 @@ Apres quatre mois d’annotathons PIAF, nous sommes fiers d’avoir aujourd’hu
 
 
 ## [camem|Flau]BERT + PIAF
-Mais quels liens peut-on faire entre les BERT français et PIAF ? Au-delà du fait que ces deux types de ressources visent à améliorer la scène française de la R&D en NLP, il paraît naturel d'utiliser un de ces modèles (ou por qué no los dos ?) et de l'affiner sur la tâche de QA. Une telle expérience pourrait être facilitée par la très utile librairie [Transformers](https://github.com/huggingface/transformers) ou par d'autres outils similaires. Par exemple, [les praticiens en NLP](https://towardsdatascience.com/benchmark-ner-algorithm-d4ab01b2d4c3) ont déjà commencé à jouer avec camemBERT pour la tâche de pseudonymisation de textes. Pour l'instant, ici à Etalab, nous allons attendre que notre jeu de données soit plus volumineux et commencerons alors à le tester sur quelques [cas d'utilisation de l'administration](https://piaf.etalab.studio/cas-usage/). 
+Mais quels liens peut-on faire entre les BERT français et PIAF ? Au-delà du fait que ces deux types de ressources visent à améliorer la scène française de la R&D en NLP, il paraît naturel d'utiliser un de ces modèles (ou por qué no los dos ?) et de l'affiner sur la tâche de QA. Une telle expérience pourrait être facilitée par la très utile librairie [Transformers](https://github.com/huggingface/transformers), développée par [Hugging Face](https://huggingface.co/), ou par d'autres outils similaires. Par exemple, [les praticiens en NLP](https://towardsdatascience.com/benchmark-ner-algorithm-d4ab01b2d4c3) ont déjà commencé à jouer avec camemBERT pour la tâche de pseudonymisation de textes. Pour l'instant, ici à Etalab, nous allons attendre que notre jeu de données soit plus volumineux et commencerons alors à le tester sur quelques [cas d'utilisation de l'administration](https://piaf.etalab.studio/cas-usage/). 
 
 ![](../img/bert_piaf_post.svg)
 
