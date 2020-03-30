@@ -98,7 +98,7 @@ In terms of platform, the annotation tool for Q&A we are currently developing is
 
 ### Status
 
-After four months of PIAF annothatons, we are proud to have now a robust annotation platform, a non-negligible amount of annotations (5000 contributions as of mid-March right) and an innovative and well settled procedure for community management and collaborative participation within the French administration. 
+After four months of PIAF annothatons, we are proud to have now a robust annotation platform, a non-negligible amount of annotations (5000 contributions as of mid-March) and an innovative and well settled procedure for community management and collaborative participation within the French administration. 
 
 
 
@@ -115,4 +115,4 @@ For now, here at Etalab we will wait for our dataset to grow bigger and will sta
 We thank deeply our contributors who have made this project come to life until now. If you want to join the community as well and contribute to PIAF by writing Question-Answer pairs, you can do it here: [piaf.etalab.studio](http://piaf.etalab.studio). It will also be the opportunity to learn many interesting facts by reading Wikipedia articles! Finally, we cross our fingers to meet the community in May at the [LREC conference 2020](https://lrec2020.lrec-conf.org/en/).
 
 ## Update March 2020
-Since the initial release of this blogpost, a few things have evolved. First, we are no longer alone in the French Q&A datasaet creation scene! Indeed, [Illuin Techonology](https://www.illuin.tech/en/) has released [FQuAD](https://arxiv.org/abs/2002.06071), a French-native SQuAD dataset. Secondly, our PIAF paper has been accepted to LREC 2020. Unfortunately, due to the global pandemic context, there will be no conference. Still, our paper will be released soon with the conference proceedings. Within the paper, we performed some experiments with PIAF and FQuAD. While different, our believe is that both datasets are complementary. 
+Since the initial release of this blogpost, a few things have evolved. First, we are no longer alone in the French Q&A datasaet creation scene! Indeed, [Illuin Techonology](https://www.illuin.tech/en/) has released [FQuAD](https://arxiv.org/abs/2002.06071), a French-native SQuAD dataset. Secondly, our PIAF paper has been accepted to LREC 2020. Unfortunately, due to the global pandemic context, there will be no conference. Still, our paper will be released soon with the conference proceedings. Within the paper, we performed some experiments with PIAF and FQuAD. While different, our believe is that both datasets are complementary. You can find the version of the dataset we used to perform these experiments [here](https://github.com/etalab-ia/piaf-code/blob/master/piaf-v1.0.json).
