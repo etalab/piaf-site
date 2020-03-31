@@ -9,7 +9,7 @@ permalink: /francophonie-ia-english/
 
 ## Maître PIAF tenait en son bec un camemBERT[^1]
 
-[^1]: This title is a reference to the famous fable by La Fontaine [Le Corbeau et le Renard](http://www.la-fontaine-ch-thierry.net/corbrena.htm), in which a crow (*piaf* is a colloquial word in French for bird) holds in its beak a cheese (*camembert*). 
+[^1]: *[1]* This title is a reference to the famous fable by La Fontaine [Le Corbeau et le Renard](http://www.la-fontaine-ch-thierry.net/corbrena.htm), in which a crow (*piaf* is a colloquial word in French for bird) holds in its beak a cheese (*camembert*). 
 
 
 ![](../img/fr_berts_piaf.png)
