@@ -108,6 +108,4 @@ Mais quels liens peut-on faire entre les BERT français et PIAF ? Au-delà du fa
 ![](../img/bert_piaf_post.svg)
 
 ## On a besoin de vous !
-Nous remercions profondément nos contributeurs qui ont fait vivre ce projet jusqu’à aujourd’hui. Si toi aussi tu veux rejoindre la communauté et contribuer à PIAF en écrivant des questions-réponses, tu peux le faire ici : [piaf.etalab.studio](http://piaf.etalab.studio). Ce sera aussi l’occasion d’apprendre plein de choses en lisant des articles Wikipedia ! Enfin, on croise les doigts pour rencontrer la communauté NLP en mai prochain à la conférence[^1] [LREC 2020](https://lrec2020.lrec-conf.org/en/).
-
-[^1]: Footnote!
+Nous remercions profondément nos contributeurs qui ont fait vivre ce projet jusqu’à aujourd’hui. Si toi aussi tu veux rejoindre la communauté et contribuer à PIAF en écrivant des questions-réponses, tu peux le faire ici : [piaf.etalab.studio](http://piaf.etalab.studio). Ce sera aussi l’occasion d’apprendre plein de choses en lisant des articles Wikipedia ! Enfin, on croise les doigts pour rencontrer la communauté NLP en mai prochain à la conférence [LREC 2020](https://lrec2020.lrec-conf.org/en/).
