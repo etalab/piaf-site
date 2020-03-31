@@ -98,7 +98,7 @@ En termes de plateforme, l'outil d'annotation pour le QA que nous développons a
 
 ### Statut
 
-Apres quatre mois d’annotathons PIAF, nous sommes fiers d’avoir aujourd’hui une plateforme d’annotation robuste, une quantité non négligeable d’annotations (4000 contributions atteintes mi-janvier)  et une démarche d’animation de communauté et  de participation collaborative bien calée et innovante au sein de l’administration française.
+Après quatre mois d’annotathons PIAF, nous sommes fiers d’avoir aujourd’hui une plateforme d’annotation robuste, une quantité non négligeable d’annotations (4000 contributions atteintes mi-janvier)  et une démarche d’animation de communauté et  de participation collaborative bien calée et innovante au sein de l’administration française.
 
 
 
