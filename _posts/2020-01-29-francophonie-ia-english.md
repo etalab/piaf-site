@@ -107,7 +107,7 @@ After four months of PIAF annothatons, we are proud to have now a robust annotat
 
 ## [camem|Flau]BERT + PIAF: what's next? 
 
-What links can we make between French BERTs and PIAF? Beyond the fact that both types of resources aim to improve the French NLP R&D scene, it seems right to use one of these models (or por qué no los dos?) and fine-tune it over the Q&A task. Such experiment could be facilitated by the very useful [Transformers](https://github.com/huggingface/transformers) library, developed by [Hugging Face](https://huggingface.co/), or similar tools. For instance, [NLP practitioners](https://towardsdatascience.com/benchmark-ner-algorithm-d4ab01b2d4c3) [ref blogpost benesty] have already started playing with camemBERT for text pseudonymisation.
+What links can we make between French BERTs and PIAF? Beyond the fact that both types of resources aim to improve the French NLP R&D scene, it seems right to use one of these models (or por qué no los dos?) and fine-tune it over the Q&A task. Such experiment could be facilitated by the very useful [Transformers](https://github.com/huggingface/transformers) library, developed by [Hugging Face](https://huggingface.co/), or similar tools. For instance, [NLP practitioners](https://towardsdatascience.com/benchmark-ner-algorithm-d4ab01b2d4c3) have already started playing with camemBERT for text pseudonymisation.
 For now, here at Etalab we will wait for our dataset to grow bigger and will start testing it on a [few cases for our administration uses](https://piaf.etalab.studio/cas-usage/).
 
 
