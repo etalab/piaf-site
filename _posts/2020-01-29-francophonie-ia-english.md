@@ -1,7 +1,7 @@
 
 ---
 layout: posts
-title: "Maître PIAF tenait en son bec un camemBERT"
+title: "French language keeping pace with AI: FlauBERT, CamemBERT, PIAF"
 date:   2020-03-30 11:30:00 -0100
 permalink: /francophonie-ia-english/
 ---
