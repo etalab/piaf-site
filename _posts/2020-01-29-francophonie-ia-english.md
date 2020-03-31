@@ -6,8 +6,11 @@ date:   2020-03-30 11:30:00 -0100
 permalink: /francophonie-ia-english/
 ---
 
-# Maître PIAF tenait en son bec un camemBERT
-## or how the French language keeps pace with AI: FlauBERT, CamemBERT, PIAF 
+# French language keeping pace with AI: FlauBERT, CamemBERT, PIAF 
+
+## Maître PIAF tenait en son bec un camemBERT[^1]
+
+[^1]: This title is a reference to the fable by La Fontaine [Le Corbeau et le Renard](http://www.la-fontaine-ch-thierry.net/corbrena.htm).
 
 
 ![](../img/fr_berts_piaf.png)
