@@ -65,7 +65,7 @@ A few weeks after CamemBERT, [FlauBERT](https://github.com/getalp/Flaubert) was 
 To train FlauBERT, a very similar configuration to CamemBERT (and thus BERT) is used. The details can be found in [their paper](https://arxiv.org/abs/1912.05372). In addition, the FlauBERT team has decided to build a larger BERT version [correct?], although the training was still in process at the time of publication.
 
 Their results show again that a French language model improves the results compared to similar BERT (multi-lingual) models as well as to other French-based models. The performances of FlauBERT and CamemBERT are very close. Unfortunately, FLUE does not include a NER benchmark in FLUE. However, in similar sequential classification tasks -constituency parsing and POS tagging-, the performance of FlauBERT is overall better than camemBERT. More interestingly, the combination FlauBERT + CamemBERT gives the best results. As the authors noted, this indicates that the two models are complementary.
-All in all, FlauBERT performs very similarly to CamemBERT while it is trained on fewer data. Noteworthy, FlauBERT was trained on French computing resources ([Jean Zay](http://www.idris.fr/annonces/annonce-jean-zay.html) computers of [GENCI](http://www.genci.fr/en)).
+All in all, FlauBERT performs very similarly to CamemBERT while it is trained on fewer data. Noteworthy, FlauBERT was trained on French computing resources (the [Jean Zay](http://www.idris.fr/annonces/annonce-jean-zay.html) supercomputer of [GENCI](http://www.genci.fr/en)).
 
 
 
