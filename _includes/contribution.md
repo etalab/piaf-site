@@ -6,16 +6,15 @@ Pour répondre à cette question, il faut disposer de données en français nati
 
 **PIAF est le projet qui explore cette question scientifique, et nous vous proposons d'y participer.** 
 
-**Le défi est le suivant** : en quelques mois, nous avons pour objectif de créer plus de 100 000 questions-réponses sur la base d'extraits d'articles Wikipédia en français. Nous avons fait un premier calcul : pour générer 20 000 questions-réponses, ce qui correspond à un premier fragment dont nous analyserons les performances, il est nécessaire de mobiliser 400 heures d'annotation. Si 500 personnes contribuent individuellement environ 45 minutes à l'annotation, nous atteindrons ce premier palier !
+**Le défi est le suivant** : en quelques mois, nous avons pour objectif de créer plus de 100 000 questions-réponses sur la base d'extraits d'articles Wikipédia en français. Nous avons fait un premier calcul : pour générer 20 000 questions-réponses, ce qui correspond à un premier fragment dont nous analyserons les performances, il est nécessaire de mobiliser 400 heures d'annotation. En l'état actuel de la base de données, si 500 personnes contribuent individuellement environ 15 minutes à l'annotation, nous atteindrons ce premier palier !
 
 ## Comment contribuer ?
 
-**Dans un premier temps, l'objectif sera de constituer avec vous le jeu de données d'évaluation de PIAF**, c'est à dire celui qui permettra d'évaluer si les données de questions-réponses en français natif sont plus performantes que des données traduites d'une autre langue. Pour cela, nous organisons tous les vendredis, de 12h30 à 14h, des **"annotathons"**, ateliers de présentation hebdmodaires pour présenter le projet et vous guider pas à pas dans la contribution.
+**Dans un premier temps, l'objectif sera de constituer avec vous le jeu de données d'évaluation de PIAF**, c'est-à-dire celui qui permettra d'évaluer si les données de questions-réponses en français natif sont plus performantes que des données traduites d'une autre langue. Pour cela, nous organisons régulièrement des événements auprès de publics issus de la société civile, afin de faire connaître notre plateforme et plus globalement les enjeux de l'intelligence artificielle française, et d'inciter à la contribution. 
+En plus de ces rencontres que nous initions pour aller au-devant des citoyens, la plateforme demeure [accessible](https://app.piaf.etalab.studio/app/) librement en ligne pour quiconque veut participer. 
 
-**Vous souhaitez y participer ? Inscrivez-vous à notre [liste de diffusion](https://framaforms.org/edite-piaf-venez-creer-avec-nous-des-ia-francophones-1571693137) pour être informé et inscrit.**
-Si vous souhaitez organiser un annotathon au sein de votre organisation, vous pouvez également nous contacter par [mail](mailto:piaf@data.gouv.fr).
-
-Lorsque la plateforme sera plus largement accessible ou si vous avez participé à un premier annotathon, vous pourrez contribuer à PIAF où et quand vous le souhaitez ! Une fois passé le cap questions-réponses pour le jeu de données d'évaluation, nous évaluerons la performance des données et lancerons une phase d'annotation pour les données d'entraînement.
+**Vous souhaitez suivre notre actualité ? N'hésitez pas à consulter notre [agenda](https://piaf.etalab.studio/agenda/) pour vous tenir informé.**
+Pour davantage d'information ou pour être ajouté à notre liste de diffusion, contactez-nous par [mail](mailto:piaf@data.gouv.fr), nous serons heureux de vous répondre !
 
 ### Voici un mode d'emploi pour annoter des articles :
 
@@ -36,6 +35,6 @@ Nous souhaitons développer ce projet de manière éthique et ouverte. Pour anno
 
 **Une démarche citoyenne** : en contribuant volontairement à PIAF, vous améliorez la présence de corpus en français dans le domaine de l'intelligence artificielle. Les données d'entraînement seront ensuite disponibles sous format libre et réutilisables permettant par exemple à des laboratoires d'approfondir certaines de leur recherches ou à des administrations d'améliorer des services à destination des usagers.
 
-**Une visée pédagogique** : l'intelligence artificielle, c'est d'abord de l'humain, et ce n'est pas une fin en soi. A travers ce projet, nous souhaitons également permettre à des profils non techniques de mieux saisir les différentes dimensions de l'intelligence artificielle. Les événements d'annotation que nous organisons seront par exemple l'occasion pour des agents publics, des étudiants, et tout citoyen volontaire de découvrir l'IA par la pratique !
+**Une visée pédagogique** : l'intelligence artificielle, c'est d'abord de l'humain, et ce n'est pas une fin en soi. A travers ce projet, nous souhaitons également permettre à des profils non techniques de mieux saisir les différentes dimensions de l'intelligence artificielle, les opportunités qu'elle offre ainsi que ses limites. Les événements d'annotation que nous organisons sont l'occasion pour des agents publics, des étudiants, et tout citoyen volontaire de découvrir l'IA par la pratique !
 
-Nous souhaitons que ce projet initie une réflexion sur la reconnaissance de contributions volontaires à des projets d'intérêt général (certifications, valorisation dans la communauté, etc.). N'hésitez pas à nous contacter si vous souhaitez partager vos idées : [piaf@data.gouv.fr](mailto:piaf@data.gouv.fr).
+Nous souhaitons que ce projet initie une réflexion sur la reconnaissance de contributions volontaires à des projets d'intérêt général (certifications, valorisation dans la communauté, etc.). N'hésitez pas à nous contacter si vous souhaitez partager vos idées et suggestions : [piaf@data.gouv.fr](mailto:piaf@data.gouv.fr).
