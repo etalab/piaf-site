@@ -9,9 +9,6 @@ key_figures:
     amount: 100000
     description: "questions-réponses à générer"
   -
-    amount: 15
-    description: "annotathons hebdomadaires"
-  -
     amount: 1000
     description: "contributeurs attendus"
   -
@@ -42,7 +39,7 @@ clipped_img: clipped-img.png
     <h1 class="text-center text-4xl mb-10">PIAF c'est...</h1>
     <div class="flex flex-wrap sm:flex-no-wrap mb-16 xl:px-24">
       {% for key_figure in page.key_figures %}
-      <div class="w-full mb-6 sm:mb-0 sm:w-1/4 flex flex-wrap justify-center">
+      <div class="w-full mb-6 sm:mb-0 sm:w-1/3 flex flex-wrap justify-center">
         <p class="font-cooper-medium w-full text-center text-3xl countup" data-count="{{ key_figure.amount }}"></p>
         <p class="w-2/3 text-center">{{ key_figure.description }}</p>
       </div>
