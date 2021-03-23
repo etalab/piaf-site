@@ -132,6 +132,22 @@
 
 }
 
+.text-link--blue {
+  text-decoration: none;
+  background-image: linear-gradient(midnightblue, midnightblue);
+  background-position-y: 100%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  transition: background-position-x .3s .3s, background-size .3s;
+
+  &:hover {
+    background-position-x: left;
+    background-size: 0 1px;
+  }
+
+}
+
 /* Button style */
 %btn {
   overflow: hidden;
@@ -465,6 +481,14 @@
 
   &::before {
     background-color: theme(colors.white);
+  }
+}
+
+.list-el--blue-disc {
+  @extend .list-el--red-disc;
+
+  &::before {
+    background-color: theme(colors.midnightblue);
   }
 }
 
