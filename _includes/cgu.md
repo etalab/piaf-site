@@ -10,15 +10,15 @@
 
 [piaf.etalab.studio](https://piaf.etalab.studio/) est un site dédié au projet PIAF : "Pour des intelligences artificielles francophones", projet d'outil mutualisé du Lab IA, opéré par la mission Etalab de la direction interministérielle du numérique (DINSIC). Il bénéficie du soutien du Programme d’investissements d’avenir (PIA), en lien avec le Secrétariat général pour l'investissement et la Caisse des dépôts et consignations. Le site vise à présenter le projet PIAF (la démarche, les actualités, les partenaires)
 
-Le [module d'annotation](https://app.piaf.etalab.studio/app) permet l'annotation par des humains de paragraphes issus d'articles de Wikipédia en français afin de générer une base de données ouvertes de 100 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une question et sélectionner la réponse dans le texte
+Le module d'annotation permet l'annotation par des humains de paragraphes issus d'articles de Wikipédia en français afin de générer une base de données ouvertes de 100 000 questions-réponses en français, utile pour développer des projets d'intelligence artificielle. Les contributeurs sont invités à lire un paragraphe issu d'un article Wikipédia, formuler une question et sélectionner la réponse dans le texte
 
 ###  Traitement des données
 
-Lors de votre inscription sur le [module d'annotation](https://app.piaf.etalab.studio/app), vous saisissez une adresse électronique. Celle-ci est utilisée pour :
+Lors de votre inscription sur le [module d'annotation](https://piaf.etalab.studio/fin), vous saisissez une adresse électronique. Celle-ci est utilisée pour :
 
 * vous permettre d'accéder à l'interface d'annotation ;
-* vous permettre de réinitialiser votre mot de passe ; 
-* nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contributions (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produites seront publiées). 
+* vous permettre de réinitialiser votre mot de passe ;
+* nous permettre d'avoir une estimation des contributions nécessaires pour disposer d'un jeu de données annoté de qualité, et passer à une phase d'analyse et d'ouverture des données issues des contributions (nous ne publierons jamais votre adresse email et autre information vous concernant. Seuls les questions et réponses que vous aurez produites seront publiées).
 
 Vous pouvez aussi saisir votre adresse électronique pour vous inscrire à [la liste de diffusion](https://framaforms.org/edite-piaf-venez-creer-avec-nous-des-ia-francophones-1571693137) qui vous informe des actualités de PIAF et des des événements d’annotation
 
